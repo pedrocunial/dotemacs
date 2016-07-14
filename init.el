@@ -4,6 +4,7 @@
 
 (require 'evil)
 (evil-mode 1)
+
 (define-key global-map (kbd "RET") 'newline-and-indent)
 
 (electric-pair-mode 1)
