@@ -43,5 +43,9 @@
 ;; (add-hook 'c-mode-common-hook '(lambda () (c-toggle-auto-state 1)))
 
 ;; evil-nerd-commenter: Use , to comment a line
-;; (you can also do things like ",i(" also)
+;; (you can also do things like ",,9j" also)
 (evilnc-default-hotkeys)
+
+;; change surrounds (use cs"' to change "hello world" to 'hello world')
+(require 'evil-surround)
+(global-evil-surround-mode 1)
