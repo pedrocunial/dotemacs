@@ -17,6 +17,7 @@
  '(custom-enabled-themes (quote (tango-dark)))
  '(inhibit-startup-screen t)
  '(show-paren-mode t))
+ '(c-hanging-braces-alist (quote ((substatement-open . (ater)))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
