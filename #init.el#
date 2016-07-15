@@ -30,7 +30,7 @@
 
 (ac-config-default)
 
-;; (global-linum-mode)
+(global-linum-mode)
 
 ;; tabs
 (setq-default indent-tabs-mode nil)
@@ -50,14 +50,3 @@
 (require 'evil-surround)
 (global-evil-surround-mode 1)
 
-;; Relative line numbers
-;; It may conflict with linum, soo make sure you only have one of those on
-(defun relative-abs-line-numbers-format (offset)
-  "The default formatting function.
-Return the absolute value of OFFSET, converted to string."
-  (if (= 0 offset)
-      (number-to-string (line-number-at-pos))
-    (number-to-string (abs offset))))
-
-(global-relative-line-numbers-mode)
-(setq relative-line-numbers-format 'relative-abs-line-numbers-format)
