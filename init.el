@@ -61,3 +61,7 @@ Return the absolute value of OFFSET, converted to string."
 
 (global-relative-line-numbers-mode)
 (setq relative-line-numbers-format 'relative-abs-line-numbers-format)
+
+(require 'indent-guide)
+(indent-guide-global-mode)
+(setq indent-guide-recursive t)
