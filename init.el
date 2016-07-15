@@ -17,7 +17,9 @@
  '(custom-enabled-themes (quote (tango-dark)))
  '(inhibit-startup-screen t)
  '(show-paren-mode t))
- '(c-hanging-braces-alist (quote ((substatement-open . (ater)))))
+
+ ;; from http://stackoverflow.com/questions/23792526/indentation-inside-brackets-and-not-beside-closing-bracket-in-emacs
+ '(c-hanging-braces-alist (quote ((substatement-open . (after)))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
