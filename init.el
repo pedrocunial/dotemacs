@@ -28,3 +28,7 @@
 (ac-config-default)
 
 (global-linum-mode)
+
+;; tabs
+(setq-default indent-tabs-mode nil)
+(setq tab-width 4)
