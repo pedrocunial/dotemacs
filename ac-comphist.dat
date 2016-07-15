@@ -1,4 +1,20 @@
-((("console" .
+((("categoryID" .
+   [0 0 0 0 0 0 0 0 1 0])
+  ("throw" .
+   [1 0 0 0 0])
+  ("err" .
+   [2 0 0])
+  ("category" .
+   [3 0 0 0 0 0 0 0])
+  ("json" .
+   [2 0 0 0])
+  ("case" .
+   [0 0 1 0])
+  ("obj" .
+   [1 0 0])
+  ("categories" .
+   [2 0 0 0 0 0 1 0 0 0])
+  ("console" .
    [4 0 0 0 0 0 0])
   ("onRequest" .
    [0 0 0 1 0 0 0 0 0])
@@ -27,7 +43,7 @@
   ("function" .
    [0 0 0 0 1 0 0 1])
   ("require" .
-   [3 0 0 0 1 1 1])
+   [4 0 1 0 1 1 1])
   ("linum-mode" .
    [0 0 0 0 1 0 0 0 0 0])
   ("global-linum-mode" .
