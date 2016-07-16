@@ -70,4 +70,4 @@ Return the absolute value of OFFSET, converted to string."
 (indent-guide-global-mode)
 (setq indent-guide-recursive t)
 
-(set-default-font "Inconsolata 14")
+(set-default-font "Inconsolata-14")
