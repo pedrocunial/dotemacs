@@ -74,4 +74,4 @@ Return the absolute value of OFFSET, converted to string."
 
 ;; semantic mode, i don't quite get the use of this, soo i'm declaring it
 ;; as initially off, but i may change my mind, soo keeping this here
-(setq semantic-mode nil)
+(setq semantic-mode t)
