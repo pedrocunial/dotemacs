@@ -1,4 +1,12 @@
-((("set-default-font" .
+((("semantic-mode" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("global-semanticdb-minor-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("format" .
+   [2 0 0 0 0 0])
+  ("factorial" .
+   [1 0 0 1 0 0 0 0 0])
+  ("set-default-font" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 2])
   ("indent-guide-recursive" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
@@ -31,7 +39,7 @@
   ("nodejs-repl" .
    [0 0 0 0 1 0 0 0 0 0 0])
   ("setq" .
-   [1 0 0 1])
+   [2 0 0 1])
   ("if" .
    [1 0])
   ("global-linum-mode" .
@@ -51,7 +59,7 @@
   ("indent-tabs-mode" .
    [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
   ("nil" .
-   [1 0 0])
+   [2 0 0])
   ("tab-width" .
    [0 0 0 0 1 0 0 0 0])
   ("writeHead" .
@@ -67,7 +75,7 @@
   ("onRequest" .
    [0 0 0 1 0 0 0 0 0])
   ("console" .
-   [4 0 0 0 0 0 0])
+   [5 0 0 0 0 0 0])
   ("categories" .
    [2 0 0 0 0 0 1 0 0 0])
   ("obj" .
@@ -91,7 +99,7 @@
   ("set-face-font" .
    [0 0 0 0 0 0 0 0 1 0 0 0 0])
   ("set" .
-   [1 0 0])
+   [2 0 0])
   ("set-default" .
    [0 0 0 0 0 1 0 1 0 0 0])
   ("gmAPI" .
@@ -109,4 +117,6 @@
   ("matrixParams" .
    [0 0 0 0 0 1 1 0 0 0 0 0])
   ("params" .
-   [4 0 0 1 0 0])))
+   [4 0 0 1 0 0])
+  ("semantic" .
+   [0 0 0 0 1 0 0 0])))

@@ -61,7 +61,7 @@
 Return the absolute value of OFFSET, converted to string."
   (if (= 0 offset)
       (number-to-string (line-number-at-pos))
-    (number-to-string (abs offset))))
+      (number-to-string (abs offset))))
 
 (global-relative-line-numbers-mode)
 (setq relative-line-numbers-format 'relative-abs-line-numbers-format)
@@ -70,4 +70,8 @@ Return the absolute value of OFFSET, converted to string."
 (indent-guide-global-mode)
 (setq indent-guide-recursive t)
 
-(set-default-font "Inconsolata-14")
+(set-default-font "Inconsolata-16")
+
+;; semantic mode, i don't quite get the use of this, soo i'm declaring it
+;; as initially off, but i may change my mind, soo keeping this here
+(setq semantic-mode nil)
