@@ -14,10 +14,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-names-vector ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
  '(custom-enabled-themes (quote (tango-dark)))
+ '(custom-safe-themes (quote ("a164837cd2821475e1099911f356ed0d7bd730f13fa36907895f96a719e5ac3e" "c0dd5017b9f1928f1f337110c2da10a20f76da0a5b14bb1fec0f243c4eb224d4" "97d039a52cfb190f4fd677f02f7d03cf7dbd353e08ac8a0cb991223b135ac4e6" default)))
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))
  '(inhibit-startup-screen t)
+ '(rainbow-identifiers-cie-l*a*b*-lightness 70)
+ '(rainbow-identifiers-cie-l*a*b*-saturation 20)
  '(server-mode t)
  '(show-paren-mode t)
  '(uniquify-buffer-name-style (quote post-forward) nil (uniquify)))
@@ -42,7 +46,7 @@
 
 (require 'nodejs-repl)
 
-(load-theme 'suscolors t)
+(load-theme 'gruvbox t)
 
 ;; (add-hook 'c-mode-common-hook '(lambda () (c-toggle-auto-state 1)))
 
@@ -81,3 +85,5 @@ Return the absolute value of OFFSET, converted to string."
 
 ;; Define default JS indentation for 2 spaces instead of 4
 (setq js-indent-level 2)
+
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
