@@ -102,3 +102,6 @@ Return the absolute value of OFFSET, converted to string."
 ;; This block makes soo that NeoTree will always open on the current file as
 ;; the default node
 ;; (setq neo-smart-open t)
+
+;; Hiding tool-bar (top bar)
+(tool-bar-mode -1)
