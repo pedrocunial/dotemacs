@@ -78,3 +78,6 @@ Return the absolute value of OFFSET, converted to string."
 (setq semantic-mode t)
 
 (add-hook 'prog-mode-hook 'rainbow-identifiers-mode)
+
+;; Define default JS indentation for 2 spaces instead of 4
+(setq js-indent-level 2)
