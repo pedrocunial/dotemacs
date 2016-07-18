@@ -127,4 +127,10 @@
   ("global-semanticdb-minor-mode" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("semantic-mode" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])))
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [0 0 0 0 0 0 0 1])
+  ("prog-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("rainbow-identifiers-mode" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])))

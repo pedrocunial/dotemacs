@@ -76,3 +76,5 @@ Return the absolute value of OFFSET, converted to string."
 ;; as initially off, but i may change my mind, soo keeping this here
 ;; UPDATE: Looks like I was a useful plugin after-all, I might give it a try
 (setq semantic-mode t)
+
+(add-hook 'prog-mode-hook 'rainbow-identifiers-mode)
