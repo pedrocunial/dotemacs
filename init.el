@@ -86,8 +86,11 @@ Return the absolute value of OFFSET, converted to string."
 ;; Define default JS indentation for 2 spaces instead of 4
 (setq js-indent-level 2)
 
+;; Rainbow Delimiters (Parenthesis, brackets etc will have different
+;; color based on their "level")
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 
+;; NeoTree
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
 (add-hook 'neotree-mode-hook
@@ -96,3 +99,6 @@ Return the absolute value of OFFSET, converted to string."
             (define-key evil-normal-state-local-map (kbd "SPC") 'neotree-enter)
             (define-key evil-normal-state-local-map (kbd "q") 'neotree-hide)
             (define-key evil-normal-state-local-map (kbd "RET") 'neotree-enter)))
+;; This block makes soo that NeoTree will always open on the current file as
+;; the default node
+;; (setq neo-smart-open t)
