@@ -105,3 +105,8 @@ Return the absolute value of OFFSET, converted to string."
 
 ;; Hiding tool-bar (top bar)
 (tool-bar-mode -1)
+
+;; Python import checker
+(defun mp-add-python-keys()
+  (local-set-key (kbd "C-c i") 'py-import-check))
+(add-hook 'python-mode-hook 'mp-add-python-keys)
