@@ -113,3 +113,10 @@ Return the absolute value of OFFSET, converted to string."
 (defun mp-add-python-keys()
   (local-set-key (kbd "C-c i") 'py-import-check))
 (add-hook 'python-mode-hook 'mp-add-python-keys)
+
+;; Enable org-mode
+(require 'org)
+
+;; Org-mode UTF-8 bullets
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
