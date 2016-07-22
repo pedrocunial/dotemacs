@@ -81,7 +81,10 @@ Return the absolute value of OFFSET, converted to string."
 ;; UPDATE: Looks like I was a useful plugin after-all, I might give it a try
 (setq semantic-mode t)
 
-(add-hook 'prog-mode-hook 'rainbow-identifiers-mode)
+;; Makes variables and other stuff colorful and dumblooking, may be a bit
+;; annoying, personally, I can't use it for more than a week without getting
+;; tired / overly annoyed by it
+;; (add-hook 'prog-mode-hook 'rainbow-identifiers-mode)
 
 ;; Define default JS indentation for 2 spaces instead of 4
 (setq js-indent-level 2)
