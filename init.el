@@ -117,6 +117,10 @@ Return the absolute value of OFFSET, converted to string."
 ;; Enable org-mode
 (require 'org)
 
-;; Org-mode UTF-8 bullets
+;; Org-mode UTF-8 bullets 
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+
+;; Workflow states for Kanban like states in org-mode
+(setq org-todo-keywords
+      '((sequence "TODO" "DOING" "DONE")))
