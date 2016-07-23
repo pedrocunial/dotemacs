@@ -114,6 +114,10 @@ Return the absolute value of OFFSET, converted to string."
   (local-set-key (kbd "C-c i") 'py-import-check))
 (add-hook 'python-mode-hook 'mp-add-python-keys)
 
+;; ==============================================
+;; ================ Org-mode ====================
+;; ==============================================
+
 ;; Enable org-mode
 (require 'org)
 
@@ -124,3 +128,7 @@ Return the absolute value of OFFSET, converted to string."
 ;; Workflow states for Kanban like states in org-mode
 (setq org-todo-keywords
       '((sequence "TODO" "DOING" "DONE")))
+
+;; ==============================================
+;; ================ Org-mode ====================
+;; ==============================================
