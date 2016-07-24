@@ -2,8 +2,24 @@
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 (package-initialize)
 
+;; ==================================================
+;; ================== EVIL-MODE =====================
+;; ==================================================
+
 (require 'evil)
 (evil-mode 1)
+
+;; evil-nerd-commenter: Use , to comment a line
+;; (you can also do things like ",,9j" also)
+(evilnc-default-hotkeys)
+
+;; change surrounds (use cs"' to change "hello world" to 'hello world')
+(require 'evil-surround)
+(global-evil-surround-mode 1)
+
+;; ==================================================
+;; ================== EVIL-MODE =====================
+;; ==================================================
 
 (define-key global-map (kbd "RET") 'newline-and-indent)
 
@@ -49,14 +65,6 @@
 (load-theme 'gruvbox t)
 
 ;; (add-hook 'c-mode-common-hook '(lambda () (c-toggle-auto-state 1)))
-
-;; evil-nerd-commenter: Use , to comment a line
-;; (you can also do things like ",,9j" also)
-(evilnc-default-hotkeys)
-
-;; change surrounds (use cs"' to change "hello world" to 'hello world')
-(require 'evil-surround)
-(global-evil-surround-mode 1)
 
 ;; Relative line numbers
 ;; It may conflict with linum, soo make sure you only have one of those on
