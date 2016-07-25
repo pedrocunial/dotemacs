@@ -151,3 +151,21 @@ Return the absolute value of OFFSET, converted to string."
 ;; Set C-z to seeing the tree
 (global-set-key (kbd "C-z") 'undo-tree-visualize)
 
+;; ==============================================
+;; =============== Undo-Tree ====================
+;; ==============================================
+
+
+;; ==============================================
+;; =============== powerline ====================
+;; ==============================================
+
+;; Default config for evil mode
+(require 'powerline)
+(powerline-center-evil-theme)
+
+(setq powerline-default-separator 'arrow)
+
+;; ==============================================
+;; =============== powerline ====================
+;; ==============================================
