@@ -138,6 +138,16 @@ Return the absolute value of OFFSET, converted to string."
 (setq org-todo-keywords
       '((sequence "TODO(!)" "DOING(!)" "DONE(!)")))
 
+;; Hide done items
+(defun org-fold-all-done-entries()
+  "Close/fold all entries marked DONE."
+  (interactive)
+  (save-excursion
+    (goto-char (point-max))
+    (while (outline-previous-heading)
+      (when (org-entry-is-done-p)
+        (hide-entry)))))
+
 ;; ==============================================
 ;; ================ Org-mode ====================
 ;; ==============================================
