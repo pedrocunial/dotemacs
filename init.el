@@ -140,3 +140,14 @@ Return the absolute value of OFFSET, converted to string."
 ;; ==============================================
 ;; ================ Org-mode ====================
 ;; ==============================================
+
+;; ==============================================
+;; =============== Undo-Tree ====================
+;; ==============================================
+
+;; Enable undo-tree
+(global-undo-tree-mode 1)
+
+;; Set C-z to seeing the tree
+(global-set-key (kbd "C-z") 'undo-tree-visualize)
+
