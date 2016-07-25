@@ -134,8 +134,9 @@ Return the absolute value of OFFSET, converted to string."
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
 ;; Workflow states for Kanban like states in org-mode
+;; the (!) serves for adding timestamps
 (setq org-todo-keywords
-      '((sequence "TODO" "DOING" "DONE")))
+      '((sequence "TODO(!)" "DOING(!)" "DONE(!)")))
 
 ;; ==============================================
 ;; ================ Org-mode ====================
