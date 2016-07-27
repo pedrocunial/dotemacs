@@ -58,7 +58,8 @@
 
 ;; tabs
 (setq-default indent-tabs-mode nil)
-(setq tab-width 4)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
 
 (require 'nodejs-repl)
 
