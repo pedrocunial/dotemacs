@@ -21,9 +21,14 @@
 ;; ================== EVIL-MODE =====================
 ;; ==================================================
 
+;; Smart-Indent
 (define-key global-map (kbd "RET") 'newline-and-indent)
 
+;; Auto-pairing (parens, brackets etc)
 (electric-pair-mode 1)
+
+;; Line wrapping globally (vim-esque)
+(global-visual-line-mode t)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -52,6 +57,7 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; Auto-complete
 (ac-config-default)
 
 ;; (global-linum-mode)
@@ -115,6 +121,20 @@ Return the absolute value of OFFSET, converted to string."
 ;; the default node
 ;; (setq neo-smart-open t)
 
+;; Less brutal scroll-step (Emacs defaults scrolling half screen)
+;; whenever your cursor hits the bottom of the screen
+;; (setq scroll-step 1
+;;       scroll-conservatively 10000)
+(require 'smooth-scrolling)
+(setq scroll-step 1) ; One line at a time
+;; Makes it scroll when near the end of screen
+(setq smooth-scroll-margin 5)
+
+;; Shortcut for refreshing init.el
+(global-set-key (kbd "C-r")
+                '(lambda() (interactive)
+                   (load-file "~/.emacs.d/init.el")))
+
 ;; Hiding tool-bar (top bar)
 (tool-bar-mode -1)
 
@@ -133,7 +153,7 @@ Return the absolute value of OFFSET, converted to string."
 ;; Enable org-mode
 (require 'org)
 
-;; Org-mode UTF-8 bullets 
+;; Org-mode UTF-8 bullets
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
