@@ -1,0 +1,39 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/gil/Documents/C++/Tutorials/" . "Snake/")
+ ("/home/gil/Documents/C++/" . "Tutorials/")
+ ("/home/gil/Documents/" . "C++/")
+ ("/home/gil/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/gil/.emacs.d/"
+ "/home/gil/Documents/C++/Tutorials/Snake/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "snake.cpp"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/gil/.emacs.d/" (22422 33707 134514 257000) "auto-save-list/" "themes/" "ac-comphist.dat" "../" "init.el" ".gitignore" "./" "elpa/" "README.md" ".git/")
+
+ ("/home/gil/Documents/C++/Tutorials/Snake/" (22425 18464 874168 106000) "LICENSE.md" "../" "snake.cpp" "Snake" ".gitignore" "./" "README.md" ".git/")
+
+ ("/home/gil/Documents/C++/Tutorials/" (22419 60384 110407 500000) "stupid_test.cpp" "TestNCurses/" "../" "Snake/" "a.out" "./" "stupid_test.cpp~")
+
+ ("/home/gil/Documents/C++/" (22417 28628 520821 929000) "../" "Tutorials/" "./")
+
+ ("/home/gil/Documents/" (22418 41456 374811 296000) "CESAR/" "Lisp/" "../" "Bash/" "Python/" "Agenda/" "NodeJS/" "./" "C++/")
+
+ ("/home/gil/" (22425 17631 910455 23000) "Pictures/" ".bashrc" ".themes/" ".dbus/" "Android/" "Downloads/" ".java/" ".macromedia/" ".kube/" ".AndroidStudio2.1/" "bin/" "../" ".linuxmint/" ".Xauthority" ".mozilla/" ".pki/" ".emacs.d/" ".cinnamon/" "Desktop/" ".ICEauthority" ".cache/" "Public/" "Music/" ".bash_history" ".gradle/" ".local/" ".viminfo" ".gnome/" ".nv/" ".adobe/" "Videos/" ".bash/" ".profile" ".bashrc~" "./" ".config/" ".dmrc" ".xsession-errors" ".bash_profile" ".gitconfig" ".gconf/" "Templates/" ".sudo_as_admin_successful" ".profile~" ".oracle_jre_usage/" "Documents/" ".nvidia-settings-rc" ".bash_logout" ".android/" ".gnupg/" ".icons/" ".npm/" ".gksu.lock")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -160,7 +160,7 @@ Return the absolute value of OFFSET, converted to string."
 ;; Workflow states for Kanban like states in org-mode
 ;; the (!) serves for adding timestamps
 (setq org-todo-keywords
-      '((sequence "TODO(!)" "DOING(!)" "DONE(!)")))
+      '((sequence "TODO" "DOING(!)" "DONE(!)")))
 
 ;; Hide done items
 (defun org-fold-all-done-entries()
