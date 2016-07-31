@@ -63,9 +63,8 @@
 ;; (global-linum-mode)
 
 ;; tabs
-(setq-default indent-tabs-mode nil)
-(setq-default tab-width 4)
-(setq indent-line-function 'insert-tab)
+(setq c-default-style "k&r"
+      c-basic-offset 4)
 
 (require 'nodejs-repl)
 
@@ -123,12 +122,8 @@ Return the absolute value of OFFSET, converted to string."
 
 ;; Less brutal scroll-step (Emacs defaults scrolling half screen)
 ;; whenever your cursor hits the bottom of the screen
-;; (setq scroll-step 1
-;;       scroll-conservatively 10000)
-(require 'smooth-scrolling)
-(setq scroll-step 1) ; One line at a time
-;; Makes it scroll when near the end of screen
-(setq smooth-scroll-margin 5)
+(setq scroll-step 1 
+      scroll-conservatively 10000)
 
 ;; Shortcut for refreshing init.el
 (global-set-key (kbd "C-r")
