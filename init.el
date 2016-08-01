@@ -62,7 +62,7 @@
 
 ;; (global-linum-mode)
 
-;; tabs
+;; tabs and indent style
 (setq c-default-style "k&r"
       c-basic-offset 4)
 
@@ -129,6 +129,9 @@ Return the absolute value of OFFSET, converted to string."
 (global-set-key (kbd "C-r")
                 '(lambda() (interactive)
                    (load-file "~/.emacs.d/init.el")))
+
+;; TOP SECRET SHORTCUT
+(global-set-key (kbd "C-x t e t r i s") 'tetris)
 
 ;; Hiding tool-bar (top bar)
 (tool-bar-mode -1)
