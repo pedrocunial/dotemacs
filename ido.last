@@ -11,32 +11,38 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/gil/Documents/C++/Tutorials/Snake/"
  "/home/gil/.emacs.d/"
+ "/home/gil/Documents/C++/Tutorials/Snake/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
  "snake.cpp"
  "LICENSE.md"
- "init.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/gil/.emacs.d/" (22435 57619 417062 985000) "ido.last~" "auto-save-list/" "themes/" "ac-comphist.dat" "../" "init.el" "ido.last" ".gitignore" "./" "elpa/" "README.md" ".git/")
+
+ ("/home/gil/" (22435 50022 638388 243000) "Pictures/" ".bashrc" ".themes/" ".dbus/" "Android/" "Downloads/" ".java/" ".macromedia/" ".kube/" ".AndroidStudio2.1/" "bin/" "../" ".linuxmint/" ".Xauthority" ".ssh/" ".mozilla/" ".pki/" ".emacs.d/" ".cinnamon/" "Desktop/" ".ICEauthority" ".cache/" "Public/" "Music/" ".bash_history" ".gradle/" ".local/" ".viminfo" ".gnome/" ".nv/" ".adobe/" "Videos/" ".bash/" ".profile" ".bashrc~" "./" ".config/" ".dmrc" ".xsession-errors" ".bash_profile" ".gitconfig" ".gconf/" "Templates/" ".sudo_as_admin_successful" ".profile~" ".oracle_jre_usage/" "Documents/" ".nvidia-settings-rc" ".bash_logout" ".android/" ".gnupg/" ".icons/" ".npm/" ".gksu.lock")
+
+ ("/home/gil/Documents/" (22435 50196 864497 418000) "OverTheWire/" "CESAR/" "Lisp/" "../" "Bash/" "Python/" "Agenda/" "NodeJS/" "./" "C++/")
+
+ ("/home/gil/Documents/OverTheWire/" (22435 50202 472543 859000) "../" "./" "Bandit/")
+
+ ("/home/gil/Documents/OverTheWire/Bandit/" (22435 58149 750219 284000) "../" "./" "notes.org" "notes.org~")
+
+ ("/home/gil/Documents/CESAR/" (22418 43074 55862 930000) "MapTestJS/" "../" "MapTest/" "./")
+
  ("/home/gil/Documents/C++/Tutorials/Snake/" (22426 42195 84571 679000) "LICENSE.md" "../" "snake.cpp" "Snake" "#snake.cpp#" ".gitignore" "./" "README.md" ".git/")
 
- ("/home/gil/.emacs.d/" (22425 19528 779772 200000) "ido.last~" "auto-save-list/" "themes/" "ac-comphist.dat" "../" "init.el" "ido.last" ".gitignore" "./" "elpa/" "README.md" ".git/")
-
  ("/home/" (22405 39355 247174 739000) "gil/" "../" "./")
-
- ("/home/gil/" (22426 29011 69348 203000) "Pictures/" ".bashrc" ".themes/" ".dbus/" "Android/" "Downloads/" ".java/" ".macromedia/" ".kube/" ".AndroidStudio2.1/" "bin/" "../" ".linuxmint/" ".Xauthority" ".mozilla/" ".pki/" ".emacs.d/" ".cinnamon/" "Desktop/" ".ICEauthority" ".cache/" "Public/" "Music/" ".bash_history" ".gradle/" ".local/" ".viminfo" ".gnome/" ".nv/" ".adobe/" "Videos/" ".bash/" ".profile" ".bashrc~" "./" ".config/" ".dmrc" ".xsession-errors" ".bash_profile" ".gitconfig" ".gconf/" "Templates/" ".sudo_as_admin_successful" ".profile~" ".oracle_jre_usage/" "Documents/" ".nvidia-settings-rc" ".bash_logout" ".android/" ".gnupg/" ".icons/" ".npm/" ".gksu.lock")
 
  ("/home/gil/Documents/C++/Tutorials/" (22419 60384 110407 500000) "stupid_test.cpp" "TestNCurses/" "../" "Snake/" "a.out" "./" "stupid_test.cpp~")
 
  ("/home/gil/Documents/C++/" (22417 28628 520821 929000) "../" "Tutorials/" "./")
-
- ("/home/gil/Documents/" (22418 41456 374811 296000) "CESAR/" "Lisp/" "../" "Bash/" "Python/" "Agenda/" "NodeJS/" "./" "C++/")
 )
 
 ;; ----- ido-unc-hosts-cache -----

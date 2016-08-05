@@ -9,6 +9,13 @@
 (require 'evil)
 (evil-mode 1)
 
+;; Global evil keys for customizations
+(global-evil-leader-mode)
+
+;; Evil org-mode
+(add-to-list 'load-path "~/.emacs.d/plugins/evil-org-mode")
+(require 'evil-org)
+
 ;; evil-nerd-commenter: Use , to comment a line
 ;; (you can also do things like ",,9j" also)
 (evilnc-default-hotkeys)
