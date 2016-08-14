@@ -95,7 +95,28 @@ Return the absolute value of OFFSET, converted to string."
 (indent-guide-global-mode)
 (setq indent-guide-recursive t)
 
-(set-default-font "Inconsolata-16")
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;; FONTS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defun font-exists-p (font)
+  "Check if a given font exists"
+  (if (null (x-list-fonts font))
+      nil
+    t))
+
+;; Checking if we have inconsolata-g avaliable, if so, we set it
+;; as our default font, otherwise, we'll check if we have the regular
+;; inconsolata, if soo that will be our font.
+;; If none of the conditions are met, we'll keep the systems original font
+(if (font-exists-p "Inconsolata-g")
+    (set-default-font "Inconsolata-g-14")
+  (if (font-exists-p "Inconsolata")
+      (set-default-font "Inconsolata-16")))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;; FONTS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; semantic mode, i don't quite get the use of this, soo i'm declaring it
 ;; as initially off, but i may change my mind, soo keeping this here

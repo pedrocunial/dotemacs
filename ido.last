@@ -24,7 +24,7 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/gil/.emacs.d/" (22435 57619 417062 985000) "ido.last~" "auto-save-list/" "themes/" "ac-comphist.dat" "../" "init.el" "ido.last" ".gitignore" "./" "elpa/" "README.md" ".git/")
+ ("/home/gil/.emacs.d/" (22447 38630 636954 732000) ".git/" "themes/" "README.md" "elpa/" "init.el" "./" "ido.last" "ac-comphist.dat" "auto-save-list/" "plugins/" ".gitignore" "ido.last~" "../")
 
  ("/home/gil/" (22435 50022 638388 243000) "Pictures/" ".bashrc" ".themes/" ".dbus/" "Android/" "Downloads/" ".java/" ".macromedia/" ".kube/" ".AndroidStudio2.1/" "bin/" "../" ".linuxmint/" ".Xauthority" ".ssh/" ".mozilla/" ".pki/" ".emacs.d/" ".cinnamon/" "Desktop/" ".ICEauthority" ".cache/" "Public/" "Music/" ".bash_history" ".gradle/" ".local/" ".viminfo" ".gnome/" ".nv/" ".adobe/" "Videos/" ".bash/" ".profile" ".bashrc~" "./" ".config/" ".dmrc" ".xsession-errors" ".bash_profile" ".gitconfig" ".gconf/" "Templates/" ".sudo_as_admin_successful" ".profile~" ".oracle_jre_usage/" "Documents/" ".nvidia-settings-rc" ".bash_logout" ".android/" ".gnupg/" ".icons/" ".npm/" ".gksu.lock")
 
