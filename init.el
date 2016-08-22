@@ -29,7 +29,7 @@
 ;; ==================================================
 
 ;; X-clipboard-manager
-(setq x-select-clipboard-manager nil)
+(setq x-select-enable-clipboard-manager nil)
 
 ;; Smart-Indent
 (define-key global-map (kbd "RET") 'newline-and-indent)
