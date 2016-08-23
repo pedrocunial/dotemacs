@@ -2,39 +2,43 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/gil/Documents/Insper/2016.2/" . "TecWeb/")
+ ("/home/gil/Documents/Insper/" . "2016.2/")
  ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula03/" . "Web/")
  ("/home/gil/Documents/Insper/2016.2/TecWeb/" . "Aula03/")
  ("/home/" . "gil/")
  ("/home/gil/Documents/C++/Tutorials/" . "Snake/")
  ("/home/gil/Documents/C++/" . "Tutorials/")
- ("/home/gil/Documents/" . "C++/")
+ ("/home/gil/Documents/" . "Insper/")
  ("/home/gil/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/gil/Documents/Insper/2016.2/TecWeb/Aula03/Web/"
  "/home/gil/.emacs.d/"
+ "/home/gil/Documents/Insper/2016.2/TecWeb/Aula03/Web/"
  "/home/gil/Documents/C++/Tutorials/Snake/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "index.html"
  "init.el"
+ "index.html"
  "snake.cpp"
  "LICENSE.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula03/Web/" (22458 56801 125502 60000) ".git/" "./" "index.html" "index.html~" "../")
+ ("/home/gil/.emacs.d/" (22459 5249 761354 321000) ".git/" "themes/" "README.md" "elpa/" "init.el" "./" "ido.last" "ac-comphist.dat" "auto-save-list/" "plugins/" ".gitignore" "ido.last~" "../")
 
- ("/home/gil/.emacs.d/" (22455 23003 543271 929000) ".git/" "themes/" "README.md" "elpa/" "init.el" "./" "ido.last" "ac-comphist.dat" "auto-save-list/" "plugins/" ".gitignore" "ido.last~" "../")
+ ("/home/gil/Documents/Bash/" (22459 5244 527986 365000) ".git/" "README.md" ".bashrc" "./" "plugins/" "emacscommit.sh" "emacsopen.sh" "gitcommit.sh" ".gitignore" "../")
 
- ("/home/gil/" (22455 20935 396256 241000) ".thumbnails/" ".AndroidStudio2.1/" ".pki/" ".android/" ".v8flags.5.0.71.57.gil.json" ".nvidia-settings-rc" ".thunderbird/" "Downloads/" ".bashrc" "./" ".xsession-errors.old" "Documents/" ".dmrc" "Android/" ".xinitrc" ".guayadeque/" ".gnupg/" ".local/" "Templates/" ".eclipse/" ".python_history" ".gitconfig" ".config/" ".Xclients" ".dir_colors" "Videos/" "Pictures/" ".bashrc~" ".ICEauthority" ".java/" ".wget-hsts" ".gnome/" ".icons/" ".xfce4-session.verbose-log" ".mozilla/" ".cmake/" ".xsession-errors" ".bash_logout" ".emacs.d/" ".npm/" ".bash_history" ".xprofile" ".cache/" ".face" "Music/" ".bash_profile" ".swt/" ".viminfo" ".kde4/" ".Xauthority" ".gimp-2.8/" ".gradle/" "Desktop/" "../" "workspace/" "Public/" ".esd_auth" ".extend.bashrc" ".hplip/" ".xfce4-session.verbose-log.last")
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula03/Web/" (22459 624 744089 671000) ".git/" "./" "index.html" "index.html~" "../" "#index.html#")
 
- ("/home/gil/Documents/" (22451 8495 340846 591000) "./" "Bash/" "CESAR/" "OverTheWire/" "../" "Insper/")
+ ("/home/gil/Documents/" (22458 14271 288226 938000) "./" "Bash/" "Octave/" "CESAR/" "OverTheWire/" "../" "Insper/")
+
+ ("/home/gil/" (22458 55401 276241 0) ".thumbnails/" ".AndroidStudio2.1/" ".pki/" ".android/" ".v8flags.5.0.71.57.gil.json" ".nvidia-settings-rc" ".thunderbird/" "Downloads/" ".bashrc" "./" ".xsession-errors.old" "Documents/" ".octave_hist" ".dmrc" "Android/" ".xinitrc" ".guayadeque/" ".gnupg/" ".local/" "Templates/" ".eclipse/" ".python_history" ".gitconfig" ".config/" ".Xclients" ".dir_colors" "Videos/" "Pictures/" ".bashrc~" ".ICEauthority" ".java/" ".wget-hsts" ".gnome/" ".icons/" ".xfce4-session.verbose-log" ".mozilla/" ".cmake/" ".xsession-errors" ".bash_logout" ".emacs.d/" ".npm/" ".bash_history" ".xprofile" ".cache/" ".face" "Music/" ".tooling/" ".bash_profile" ".swt/" ".viminfo" ".kde4/" ".Xauthority" ".gimp-2.8/" ".gradle/" "Desktop/" "../" "workspace/" "Public/" ".esd_auth" ".extend.bashrc" ".hplip/" ".xfce4-session.verbose-log.last")
 
  ("/home/gil/Documents/Insper/" (22447 34796 928941 528000) "2016.2/" "./" "../")
 
