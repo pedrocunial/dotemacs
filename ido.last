@@ -30,21 +30,25 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/gil/.emacs.d/" (22459 5249 761354 321000) ".git/" "themes/" "README.md" "elpa/" "init.el" "./" "ido.last" "ac-comphist.dat" "auto-save-list/" "plugins/" ".gitignore" "ido.last~" "../")
+ ("/home/gil/Documents/Insper/2016.2/FabioAyres/Temas/" (22463 22503 148586 652000) "temas.org~" "./" "temas.org" "../")
+
+ ("/home/gil/" (22464 31071 277286 436000) ".thumbnails/" ".AndroidStudio2.1/" ".pki/" ".android/" ".v8flags.5.0.71.57.gil.json" ".nvidia-settings-rc" ".thunderbird/" "Downloads/" ".bashrc" "./" ".xsession-errors.old" "Documents/" ".octave_hist" ".dmrc" "Android/" ".xinitrc" ".guayadeque/" ".gnupg/" ".local/" "Templates/" ".eclipse/" ".python_history" ".gitconfig" ".config/" ".Xclients" ".dir_colors" "Videos/" "Pictures/" ".node_repl_history" ".v8flags.5.0.71.60.gil.json" ".bashrc~" ".ICEauthority" ".java/" ".wget-hsts" ".gnome/" ".icons/" ".xfce4-session.verbose-log" ".mozilla/" ".cmake/" ".xsession-errors" ".bash_logout" ".emacs.d/" ".npm/" ".bash_history" ".xprofile" ".cache/" ".face" "Music/" ".tooling/" ".bash_profile" ".swt/" ".viminfo" ".kde4/" ".Xauthority" ".gimp-2.8/" ".gradle/" "Desktop/" "../" "workspace/" "Public/" ".esd_auth" ".extend.bashrc" ".vim/" ".hplip/" ".xfce4-session.verbose-log.last")
+
+ ("/home/gil/.emacs.d/" (22463 11298 770310 35000) ".git/" "themes/" "README.md" "elpa/" "init.el" "./" "ido.last" "ac-comphist.dat" "auto-save-list/" "plugins/" ".gitignore" "ido.last~" "../")
+
+ ("/home/gil/Documents/" (22460 17004 637727 693000) "./" "LaTeX/" "Bash/" "Octave/" "CESAR/" "OverTheWire/" "../" "Insper/")
+
+ ("/home/gil/Documents/Insper/2016.2/" (22461 63289 232549 663000) "Hackathon/" "./" "TecWeb/" "FabioAyres/" "Eletromag/" "../" "ModCon/" "EmpTec/" "CoDesign/")
+
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/" (22463 9330 573811 929000) "Aula00/" "./" "Aula03/" "flask-forum/" "Aula04/" "Aula01/" "../" "Forinsper/")
+
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula04/" (22463 11346 467295 735000) "app.py~" "app.py" "./" "../" "__pycache__/")
 
  ("/home/gil/Documents/Bash/" (22459 5244 527986 365000) ".git/" "README.md" ".bashrc" "./" "plugins/" "emacscommit.sh" "emacsopen.sh" "gitcommit.sh" ".gitignore" "../")
 
  ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula03/Web/" (22459 624 744089 671000) ".git/" "./" "index.html" "index.html~" "../" "#index.html#")
 
- ("/home/gil/Documents/" (22458 14271 288226 938000) "./" "Bash/" "Octave/" "CESAR/" "OverTheWire/" "../" "Insper/")
-
- ("/home/gil/" (22458 55401 276241 0) ".thumbnails/" ".AndroidStudio2.1/" ".pki/" ".android/" ".v8flags.5.0.71.57.gil.json" ".nvidia-settings-rc" ".thunderbird/" "Downloads/" ".bashrc" "./" ".xsession-errors.old" "Documents/" ".octave_hist" ".dmrc" "Android/" ".xinitrc" ".guayadeque/" ".gnupg/" ".local/" "Templates/" ".eclipse/" ".python_history" ".gitconfig" ".config/" ".Xclients" ".dir_colors" "Videos/" "Pictures/" ".bashrc~" ".ICEauthority" ".java/" ".wget-hsts" ".gnome/" ".icons/" ".xfce4-session.verbose-log" ".mozilla/" ".cmake/" ".xsession-errors" ".bash_logout" ".emacs.d/" ".npm/" ".bash_history" ".xprofile" ".cache/" ".face" "Music/" ".tooling/" ".bash_profile" ".swt/" ".viminfo" ".kde4/" ".Xauthority" ".gimp-2.8/" ".gradle/" "Desktop/" "../" "workspace/" "Public/" ".esd_auth" ".extend.bashrc" ".hplip/" ".xfce4-session.verbose-log.last")
-
  ("/home/gil/Documents/Insper/" (22447 34796 928941 528000) "2016.2/" "./" "../")
-
- ("/home/gil/Documents/Insper/2016.2/" (22452 34588 710774 29000) "Hackathon/" "./" "TecWeb/" "FabioAyres/" "Eletromag/" "../" "ModCon/" "EmpTec/")
-
- ("/home/gil/Documents/Insper/2016.2/TecWeb/" (22455 22024 440127 756000) "Aula00/" "./" "Aula03/" "flask-forum/" "Aula01/" "../" "Forinsper/")
 
  ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula03/" (22455 22065 147063 729000) "./" "Web/" "../")
 
