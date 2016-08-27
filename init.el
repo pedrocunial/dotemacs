@@ -307,11 +307,11 @@ Return the absolute value of OFFSET, converted to string."
   ;; Enable elpy mode
   (elpy-mode)
   ;; Jedibackend
-  (setq jedi:complete-on-dot t) ;optional
-  (auto-complete-mode)
-  (jedi:ac-setup)
+  (add-hook 'python-mode-hook 'jedi:setup)
+  (setq jedi:complete-on-dot t)
   (setq elpy-rpc-python-command "python3") 
   ;; (python-shell-interpreter "ipython3")
+  (company-quickhelp-mode)
   ;; Fixing keybidings
   ;; Snippet expansion
   (define-key yas-minor-mode-map (kbd "C-c k") 'yas-expand)
