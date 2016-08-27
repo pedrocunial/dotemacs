@@ -295,7 +295,42 @@ Return the absolute value of OFFSET, converted to string."
 	     '("elpy" . "https://jorgenschaefer.github.io/packages/"))
 
 (package-initialize)
+
+;; elpy
+(require 'elpy)
 (elpy-enable)
+(elpy-use-ipython)
+(setq elpy-rpc-backend "jedi")
+
+(defun prelude-personal-python-mode-defaults ()
+  "Personal defaults for Python programming."
+  ;; Enable elpy mode
+  (elpy-mode)
+  ;; Jedibackend
+  (setq jedi:complete-on-dot t) ;optional
+  (auto-complete-mode)
+  (jedi:ac-setup)
+  (setq elpy-rpc-python-command "python3") 
+  ;; (python-shell-interpreter "ipython3")
+  ;; Fixing keybidings
+  ;; Snippet expansion
+  (define-key yas-minor-mode-map (kbd "C-c k") 'yas-expand)
+  ;; Simultaneos editing (kinda like Sublime's C-d)
+  (define-key global-map (kbd "C-c d") 'iedit-mode)
+  )
+
+(setq prelude-personal-python-mode-hook 'prelude-personal-python-mode-defaults)
+
+(add-hook 'python-mode-hook (lambda ()
+                              (run-hooks 'prelude-personal-python-mode-hook)))
+
+(custom-set-variables
+ '(company-auto-complete t)
+ '(eldoc-echo-area-use-multiline-p t)
+ ;; '(elpy-mode-hook (quote (subword-mode hl-line-mode)))
+ '(elpy-rpc-python-command "python3")
+ '(python-shell-interpreter "ipython3")
+)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;; Python ;;;;;;;;;;;;;;;;;;;;;;;
