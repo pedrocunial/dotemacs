@@ -343,9 +343,9 @@ Return the absolute value of OFFSET, converted to string."
  '(python-shell-interpreter "ipython3")
 )
 
-;;; Smart tabs
-(add-hook 'python-mode-hook 'smart-tabs-mode-enable)
-(smart-tabs-advice python-indent-line-1 python-indent)
+;;; Smart tabs - Disabled since it's not pep8 default
+;; (add-hook 'python-mode-hook 'smart-tabs-mode-enable)
+;; (smart-tabs-advice python-indent-line-1 python-indent)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;; Python ;;;;;;;;;;;;;;;;;;;;;;;
@@ -380,4 +380,4 @@ Return the absolute value of OFFSET, converted to string."
 ;;; Init smart-tabs
 (setq-default tab-width 4)
 (setq cua-auto-tabify-rectangles nil)
-(smart-tabs-insinuate 'c 'c++ 'java 'javascript 'python)
+(smart-tabs-insinuate 'c 'c++ 'java 'javascript)
