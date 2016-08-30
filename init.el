@@ -32,19 +32,28 @@
 (setq x-select-enable-clipboard-manager nil)
 
 ;; Smart-Indent
+(electric-indent-mode 1)
 (define-key global-map (kbd "RET") 'newline-and-indent)
+(auto-fill-mode 1)
 
 ;; Auto-pairing (parens, brackets etc)
-;; (electric-pair-mode 1)
+(electric-pair-mode 1)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;; smartparens ;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(require 'smartparens)
-(require 'smartparens-config)
-(add-hook 'smartparens-enabled-hook #'evil-smartparens-mode)
-(smartparens-global-mode t)
+;; (require 'smartparens)
+;; (require 'smartparens-config)
+;; (add-hook 'smartparens-enabled-hook #'evil-smartparens-mode)
+;; (smartparens-global-mode t)
+;; (defun my-open-block-c-mode (id action context)
+;;   (when (eq action 'insert)
+;;     (newline)
+;;     (newline)
+;;     (indent-according-to-mode)
+;;     (previous-line)
+;;     (indent-according-to-mode)))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;; smartparens ;;;;;;;;;;;;;;;;;;;;;;
@@ -87,8 +96,10 @@
 ;; (global-linum-mode)
 
 ;; tabs and indent style
-(setq c-default-style "k&r"
-      c-basic-offset 4)
+(setq indent-tabs-mode nil)
+(add-hook 'c-mode-common-hook
+	  (lambda () (setq indent-tabs-mode t)))
+(setq-default indent-tabs-mode nil)
 
 (require 'nodejs-repl)
 
@@ -332,7 +343,39 @@ Return the absolute value of OFFSET, converted to string."
  '(python-shell-interpreter "ipython3")
 )
 
+;;; Smart tabs
+(add-hook 'python-mode-hook 'smart-tabs-mode-enable)
+(smart-tabs-advice python-indent-line-1 python-indent)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;; Python ;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;; C ;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;; Smart tabs (C && C++)
+(add-hook 'c-mode-hook 'smart-tabs-mode-enable)
+(add-hook 'c++-mode-hook 'smart-tabs-mode-enable)
+(smart-tabs-advice c-indent-line c-basic-offset)
+(smart-tabs-advice c-indent-region c-basic-offset)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;; C ;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;; JavaScript ;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;; Smart tabs
+(add-hook 'js2-mode-hook 'smart-tabs-mode-enable)
+(smart-tabs-advice js2-indent-line js2-basic-offset)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;; JavaScript ;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;; Init smart-tabs
+(smart-tabs-insinuate 'c 'c++ 'java 'javascript 'python)
