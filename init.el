@@ -378,4 +378,6 @@ Return the absolute value of OFFSET, converted to string."
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;; Init smart-tabs
+(setq-default tab-width 4)
+(setq cua-auto-tabify-rectangles nil)
 (smart-tabs-insinuate 'c 'c++ 'java 'javascript 'python)
