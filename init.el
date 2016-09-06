@@ -68,12 +68,22 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ansi-color-names-vector ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
+ '(ansi-color-names-vector
+   ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
+ '(company-auto-complete t)
  '(custom-enabled-themes (quote (tango-dark)))
- '(custom-safe-themes (quote ("a164837cd2821475e1099911f356ed0d7bd730f13fa36907895f96a719e5ac3e" "c0dd5017b9f1928f1f337110c2da10a20f76da0a5b14bb1fec0f243c4eb224d4" "97d039a52cfb190f4fd677f02f7d03cf7dbd353e08ac8a0cb991223b135ac4e6" default)))
+ '(custom-safe-themes
+   (quote
+    ("a164837cd2821475e1099911f356ed0d7bd730f13fa36907895f96a719e5ac3e" "c0dd5017b9f1928f1f337110c2da10a20f76da0a5b14bb1fec0f243c4eb224d4" "97d039a52cfb190f4fd677f02f7d03cf7dbd353e08ac8a0cb991223b135ac4e6" default)))
+ '(eldoc-echo-area-use-multiline-p t)
+ '(elpy-modules
+   (quote
+    (elpy-module-company elpy-module-eldoc elpy-module-flymake elpy-module-pyvenv elpy-module-yasnippet elpy-module-sane-defaults)))
+ '(elpy-rpc-python-command "python3")
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))
  '(inhibit-startup-screen t)
+ '(python-shell-interpreter "ipython3")
  '(rainbow-identifiers-cie-l*a*b*-lightness 70)
  '(rainbow-identifiers-cie-l*a*b*-saturation 20)
  '(server-mode t)
@@ -117,11 +127,24 @@ Return the absolute value of OFFSET, converted to string."
       (number-to-string (abs offset))))
 
 (global-relative-line-numbers-mode)
-(setq relative-line-numbers-format 'relative-abs-line-numbers-format)
+(setq relative-line-numbers-format
+      'relative-abs-line-numbers-format)
 
-(require 'indent-guide)
-(indent-guide-global-mode)
-(setq indent-guide-recursive t)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;; Indentation Guidelines ;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(require 'highlight-indent-guides)
+(add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+(setq highlight-indent-guides-mode 'fill)
+
+;; (require 'indent-guide)
+;; (indent-guide-global-mode)
+;; (setq indent-guide-recursive t)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;; Indentation Guidelines ;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;; FONTS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -193,7 +216,7 @@ Return the absolute value of OFFSET, converted to string."
 (tool-bar-mode -1)
 
 ;; Hide scroll-bar
-(scroll-bar-mode -1)
+;; (scroll-bar-mode -1)
 
 ;; Python import checker
 (defun mp-add-python-keys()
@@ -318,8 +341,8 @@ Return the absolute value of OFFSET, converted to string."
   ;; Enable elpy mode
   (elpy-mode)
   ;; Jedibackend
-  (add-hook 'python-mode-hook 'jedi:setup)
-  (setq jedi:complete-on-dot t)
+  ;; (add-hook 'python-mode-hook 'jedi:setup)
+  ;; (setq jedi:complete-on-dot t)
   (setq elpy-rpc-python-command "python3") 
   ;; (python-shell-interpreter "ipython3")
   (company-quickhelp-mode)
@@ -335,13 +358,7 @@ Return the absolute value of OFFSET, converted to string."
 (add-hook 'python-mode-hook (lambda ()
                               (run-hooks 'prelude-personal-python-mode-hook)))
 
-(custom-set-variables
- '(company-auto-complete t)
- '(eldoc-echo-area-use-multiline-p t)
- ;; '(elpy-mode-hook (quote (subword-mode hl-line-mode)))
- '(elpy-rpc-python-command "python3")
- '(python-shell-interpreter "ipython3")
-)
+
 
 ;;; Smart tabs - Disabled since it's not pep8 default
 ;; (add-hook 'python-mode-hook 'smart-tabs-mode-enable)
