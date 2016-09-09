@@ -113,7 +113,10 @@
 
 (require 'nodejs-repl)
 
+;; Theme
 (load-theme 'gruvbox t)
+;; (load-theme 'zenburn t)
+;; (load-theme 'suscolors t)
 
 ;; (add-hook 'c-mode-common-hook '(lambda () (c-toggle-auto-state 1)))
 
@@ -351,7 +354,7 @@ Return the absolute value of OFFSET, converted to string."
   (define-key yas-minor-mode-map (kbd "C-c k") 'yas-expand)
   ;; Simultaneos editing (kinda like Sublime's C-d)
   (define-key global-map (kbd "C-c d") 'iedit-mode)
-  )
+)
 
 (setq prelude-personal-python-mode-hook 'prelude-personal-python-mode-defaults)
 
@@ -360,9 +363,9 @@ Return the absolute value of OFFSET, converted to string."
 
 
 
-;;; Smart tabs - Disabled since it's not pep8 default
-;; (add-hook 'python-mode-hook 'smart-tabs-mode-enable)
-;; (smart-tabs-advice python-indent-line-1 python-indent)
+;; Smart tabs - Disabled since it's not pep8 default
+(add-hook 'python-mode-hook 'smart-tabs-mode-enable)
+(smart-tabs-advice python-indent-line-1 python-indent)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;; Python ;;;;;;;;;;;;;;;;;;;;;;;
