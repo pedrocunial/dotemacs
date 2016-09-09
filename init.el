@@ -161,7 +161,7 @@ Return the absolute value of OFFSET, converted to string."
 ;; inconsolata, if soo that will be our font.
 ;; If none of the conditions are met, we'll keep the systems original font
 (if (font-exists-p "Inconsolata-g")
-    (set-default-font "Inconsolata-g-12")
+    (set-default-font "Inconsolata-g-14")
   (if (font-exists-p "Inconsolata")
       (set-default-font "Inconsolata-16")))
 
@@ -216,7 +216,7 @@ Return the absolute value of OFFSET, converted to string."
 (tool-bar-mode -1)
 
 ;; Hide scroll-bar
-;; (scroll-bar-mode -1)
+(scroll-bar-mode -1)
 
 ;; Python import checker
 (defun mp-add-python-keys()
