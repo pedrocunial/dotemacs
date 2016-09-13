@@ -31,7 +31,7 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/gil/.emacs.d/" (22482 48314 68961 496000) "games/" ".git/" "themes/" "README.md" "elpa/" "init.el" "./" "ido.last" "ac-comphist.dat" "auto-save-list/" "plugins/" "snippets/" ".gitignore" "ido.last~" "../")
+ ("/home/gil/.emacs.d/" (22487 62098 731101 92000) "games/" ".git/" "themes/" "README.md" "elpa/" "init.el" "./" "ido.last" "ac-comphist.dat" "auto-save-list/" "plugins/" "snippets/" ".gitignore" "ido.last~" "../")
 
  ("/home/gil/" (22482 48487 973565 683000) ".thumbnails/" ".AndroidStudio2.1/" ".zshrc~" ".pki/" ".android/" ".v8flags.5.0.71.57.gil.json" ".nvidia-settings-rc" ".thunderbird/" "Downloads/" ".bashrc" ".zshrc.pre-oh-my-zsh" ".gstreamer-0.10/" "./" ".xsession-errors.old" "Documents/" ".octave_hist" ".dmrc" "Android/" ".dircolors" ".xinitrc" ".zsh_history" ".ssh/" ".guayadeque/" ".gnupg/" ".zsh-update" ".local/" "Templates/" ".eclipse/" ".python_history" ".gitconfig" ".config/" ".zcompdump-DKSummit-5.2" ".Xclients" ".dir_colors" "Videos/" "Pictures/" ".node_repl_history" ".octaverc" ".v8flags.5.0.71.60.gil.json" ".bashrc~" ".ICEauthority" ".java/" ".wget-hsts" ".gnome/" ".icons/" ".xfce4-session.verbose-log" ".mozilla/" ".cmake/" ".xsession-errors" ".bash_logout" ".emacs.d/" ".npm/" ".bash_history" ".xprofile" ".tmux.conf~" ".zshrc" ".cache/" ".oh-my-zsh/" ".yaourtrc" ".face" "Music/" ".tooling/" ".bash_profile" ".swt/" ".viminfo" ".kde4/" ".Xauthority" ".gimp-2.8/" ".gradle/" "Desktop/" "../" ".tmux.conf" "workspace/" "Public/" ".octaverc~" ".esd_auth" ".extend.bashrc" ".vim/" ".hplip/" ".xfce4-session.verbose-log.last")
 

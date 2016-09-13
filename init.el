@@ -165,12 +165,15 @@ Return the absolute value of OFFSET, converted to string."
 ;; as our default font, otherwise, we'll check if we have the regular
 ;; inconsolata, if soo that will be our font.
 ;; If none of the conditions are met, we'll keep the systems original font
-(if (font-exists-p "Source Code Pro Medium")
-    (set-default-font "Source Code Pro Medium 14")
-    (if (font-exists-p "Inconsolata-g")
-        (set-default-font "Inconsolata-g-14")
-        (if (font-exists-p "Inconsolata")
-            (set-default-font "Inconsolata-14"))))
+(if (font-exists-p "Inconsolata-g")
+    (set-default-font "Inconsolata-g-14")
+    (if (font-exists-p "Source Code Pro Medium")
+        (set-default-font "Source Code Pro Medium 14")
+        (if (font-exists-p "Meslo LG M")
+            (set-default-font "Meslo LG M 14")
+            (if (font-exists-p "Inconsolata")
+                (set-default-font "Inconsolata-14")))))
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;; FONTS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
