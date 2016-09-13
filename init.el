@@ -1,6 +1,8 @@
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 (package-initialize)
+;;; PRO-TIP: Inside list-packages, use S-u to mark all updatable packages
+;;;          and then x to execute the command
 
 ;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; ;;;;;;;;;;;;;;;;;; EVIL-MODE ;;;;;;;;;;;;;;;;;;;;;
