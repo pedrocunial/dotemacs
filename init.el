@@ -170,7 +170,7 @@ Return the absolute value of OFFSET, converted to string."
     (if (font-exists-p "Inconsolata-g")
         (set-default-font "Inconsolata-g-14")
         (if (font-exists-p "Inconsolata")
-            (set-default-font "Inconsolata-16"))))
+            (set-default-font "Inconsolata-14"))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;; FONTS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
