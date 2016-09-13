@@ -117,6 +117,8 @@
 (load-theme 'gruvbox t)
 ;; (load-theme 'zenburn t)
 ;; (load-theme 'suscolors t)
+;; (load-theme 'material t)
+;; (load-theme 'material t)
 
 ;; (add-hook 'c-mode-common-hook '(lambda () (c-toggle-auto-state 1)))
 
@@ -163,10 +165,12 @@ Return the absolute value of OFFSET, converted to string."
 ;; as our default font, otherwise, we'll check if we have the regular
 ;; inconsolata, if soo that will be our font.
 ;; If none of the conditions are met, we'll keep the systems original font
-(if (font-exists-p "Inconsolata-g")
-    (set-default-font "Inconsolata-g-14")
-  (if (font-exists-p "Inconsolata")
-      (set-default-font "Inconsolata-16")))
+(if (font-exists-p "Source Code Pro Medium")
+    (set-default-font "Source Code Pro Medium 14")
+    (if (font-exists-p "Inconsolata-g")
+        (set-default-font "Inconsolata-g-14")
+        (if (font-exists-p "Inconsolata")
+            (set-default-font "Inconsolata-16"))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;; FONTS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -181,9 +185,6 @@ Return the absolute value of OFFSET, converted to string."
 ;; annoying, personally, I can't use it for more than a week without getting
 ;; tired / overly annoyed by it
 ;; (add-hook 'prog-mode-hook 'rainbow-identifiers-mode)
-
-;; Define default JS indentation for 2 spaces instead of 4
-(setq js-indent-level 2)
 
 ;; Rainbow Delimiters (Parenthesis, brackets etc will have different
 ;; color based on their "level")
@@ -279,7 +280,7 @@ Return the absolute value of OFFSET, converted to string."
 (require 'powerline)
 (powerline-center-evil-theme)
 
-(setq powerline-default-separator 'arrow)
+(setq powerline-default-separator 'wave)
 
 ;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; ;;;;;;;;;;;;;;; powerline ;;;;;;;;;;;;;;;;;;;;
