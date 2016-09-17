@@ -141,9 +141,9 @@ Return the absolute value of OFFSET, converted to string."
 ;;;;;;;;;;;; Indentation Guidelines ;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(require 'highlight-indent-guides)
-(add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
-(setq highlight-indent-guides-mode 'fill)
+;; (require 'highlight-indent-guides)
+;; (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+;; (setq highlight-indent-guides-mode 'fill)
 
 ;; (require 'indent-guide)
 ;; (indent-guide-global-mode)
