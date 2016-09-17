@@ -2,10 +2,11 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/" . "src/")
  ("/home/gil/Documents/Insper/2016.2/" . "TecWeb/")
  ("/home/gil/Documents/Insper/" . "2016.2/")
  ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula03/" . "Web/")
- ("/home/gil/Documents/Insper/2016.2/TecWeb/" . "Aula03/")
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/" . "test-aula-pcunial/")
  ("/home/" . "gil/")
  ("/home/gil/Documents/C++/Tutorials/" . "Snake/")
  ("/home/gil/Documents/C++/" . "Tutorials/")
@@ -16,6 +17,10 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/gil/.emacs.d/"
+ "/home/gil/Documents/Insper/2016.2/TecWeb/test-aula-pcunial/"
+ "/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/src/"
+ "/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/"
+ "/home/gil/Documents/Go/Learning/"
  "/home/gil/Documents/Insper/2016.2/TecWeb/Aula03/Web/"
  "/home/gil/Documents/C++/Tutorials/Snake/"
 )
@@ -23,6 +28,10 @@
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+ "app.py"
+ "Exemplo.java"
+ ".classpath"
+ ".structexample.go.swp"
  "README.md"
  "index.html"
  "snake.cpp"
@@ -31,19 +40,31 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/gil/.emacs.d/" (22487 62098 731101 92000) "games/" ".git/" "themes/" "README.md" "elpa/" "init.el" "./" "ido.last" "ac-comphist.dat" "auto-save-list/" "plugins/" "snippets/" ".gitignore" "ido.last~" "../")
+ ("/home/gil/.emacs.d/" (22492 37881 906761 432000) "games/" ".git/" "themes/" "README.md" "elpa/" "init.el" "./" "ido.last" "ac-comphist.dat" "auto-save-list/" "plugins/" "snippets/" ".gitignore" "ido.last~" "session.298f15f49-2289-4fc7-bb1b-6c23fd12d0d9" "../")
 
- ("/home/gil/" (22482 48487 973565 683000) ".thumbnails/" ".AndroidStudio2.1/" ".zshrc~" ".pki/" ".android/" ".v8flags.5.0.71.57.gil.json" ".nvidia-settings-rc" ".thunderbird/" "Downloads/" ".bashrc" ".zshrc.pre-oh-my-zsh" ".gstreamer-0.10/" "./" ".xsession-errors.old" "Documents/" ".octave_hist" ".dmrc" "Android/" ".dircolors" ".xinitrc" ".zsh_history" ".ssh/" ".guayadeque/" ".gnupg/" ".zsh-update" ".local/" "Templates/" ".eclipse/" ".python_history" ".gitconfig" ".config/" ".zcompdump-DKSummit-5.2" ".Xclients" ".dir_colors" "Videos/" "Pictures/" ".node_repl_history" ".octaverc" ".v8flags.5.0.71.60.gil.json" ".bashrc~" ".ICEauthority" ".java/" ".wget-hsts" ".gnome/" ".icons/" ".xfce4-session.verbose-log" ".mozilla/" ".cmake/" ".xsession-errors" ".bash_logout" ".emacs.d/" ".npm/" ".bash_history" ".xprofile" ".tmux.conf~" ".zshrc" ".cache/" ".oh-my-zsh/" ".yaourtrc" ".face" "Music/" ".tooling/" ".bash_profile" ".swt/" ".viminfo" ".kde4/" ".Xauthority" ".gimp-2.8/" ".gradle/" "Desktop/" "../" ".tmux.conf" "workspace/" "Public/" ".octaverc~" ".esd_auth" ".extend.bashrc" ".vim/" ".hplip/" ".xfce4-session.verbose-log.last")
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/test-aula-pcunial/" (22490 53933 151645 776000) "static/" ".git/" "README.md" "License.txt" "database.db" "app.py~" "app.py" "./" "CHANGELOG.md" "server.py" "Procfile" "manifest.yml" "templates/" "app.pyc" "requirements.txt" "../" "__pycache__/")
+
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/src/" (22492 5565 372963 267000) "./" "Exemplo.java" "../")
+
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/" (22491 55957 916659 396000) "./" "WebContent/" ".classpath" "build/" ".settings/" "src/" "../" ".project")
+
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/" (22492 5594 853173 483000) ".recommenders/" ".metadata/" "Aula00/" "./" "aula-eclipse/" "Aula03/" "tomcat-test/" "flask-forum/" "Servers/" "test-aula-pcunial/" "Aula05/" "Aula04/" "Aula01/" "ForumTest/" "Aula06/" "RemoteSystemsTempFiles/" "../" "Forinsper/" "Aula07/")
+
+ ("/home/gil/Documents/Insper/" (22489 36475 777826 961000) "2016.2/" "Clubes/" "./" "../")
+
+ ("/home/gil/Documents/" (22489 36441 540909 388000) "./" "Web/" "LaTeX/" "Go/" "Bash/" "Octave/" "CESAR/" "OverTheWire/" "../" "Insper/")
+
+ ("/home/" (22447 32855 451189 349000) "./" "gil/" "../")
+
+ ("/home/gil/" (22492 38635 55713 786000) ".thumbnails/" ".AndroidStudio2.1/" ".zshrc~" ".pki/" ".android/" ".v8flags.5.0.71.57.gil.json" ".ipython/" ".nvidia-settings-rc" ".thunderbird/" "Downloads/" ".bashrc" ".zshrc.pre-oh-my-zsh" ".gstreamer-0.10/" "./" ".xsession-errors.old" ".gtk-bookmarks" "Documents/" ".octave_hist" ".dmrc" "Android/" ".dircolors" ".xinitrc" ".zsh_history" ".ssh/" ".guayadeque/" ".gnupg/" ".zsh-update" ".local/" "Templates/" "octave-workspace" ".eclipse/" ".python_history" ".gitconfig" ".config/" ".zcompdump-DKSummit-5.2" ".Xclients" ".dir_colors" "Videos/" "Pictures/" ".node_repl_history" ".octaverc" ".v8flags.5.0.71.60.gil.json" ".bashrc~" ".ICEauthority" ".java/" ".wget-hsts" ".gnome/" ".icons/" ".xfce4-session.verbose-log" ".mozilla/" ".cmake/" ".xsession-errors" ".bash_logout" ".emacs.d/" ".npm/" ".bash_history" ".xprofile" ".tmux.conf~" ".zshrc" ".cache/" ".oh-my-zsh/" ".yaourtrc" ".face" "Music/" ".node-gyp/" ".tooling/" ".bash_profile" ".swt/" ".viminfo" ".atom/" ".kde4/" ".Xauthority" ".gimp-2.8/" ".gradle/" "Desktop/" "../" ".tmux.conf" "workspace/" "Public/" ".octaverc~" ".esd_auth" ".extend.bashrc" ".vim/" ".hplip/" ".xfce4-session.verbose-log.last")
+
+ ("/home/gil/Documents/Go/Learning/" (22491 4431 430616 50000) "structexample.go~" ".structexample.go.swp" "./" "structexample.go" "polymorphism.go~" "../" "polymorphism.go")
 
  ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/" (22481 38148 622913 525000) "static/" ".git/" "database.db" "app.py~" "app.py" "./" "templates/" ".gitignore" "app.pyc" "../" "__pycache__/")
 
  ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/" (22480 41379 852990 329000) "academic.html~" "academic.html" "topic.html~" "new_topic.html" "./" "social.html" "topic_view.html~" "index_old.html" "section.html" "index.html" "topic.html" "adm.html" "index.html~" "topic_old.html" "social.html~" "../" "topic_view.html")
 
- ("/home/gil/Documents/" (22465 60195 552081 786000) "./" "Web/" "LaTeX/" "Bash/" "Octave/" "CESAR/" "OverTheWire/" "../" "Insper/")
-
  ("/home/gil/Documents/Insper/2016.2/" (22472 9773 948563 181000) "Hackathon/" "EleSis/" "./" "TecWeb/" "FabioAyres/" "Eletromag/" "../" "ModCon/" "EmpTec/" "CoDesign/")
-
- ("/home/gil/Documents/Insper/2016.2/TecWeb/" (22473 22923 377692 201000) "Aula00/" "./" "Aula03/" "flask-forum/" "Aula05/" "Aula04/" "Aula01/" "ForumTest/" "Aula06/" "../" "Forinsper/" "Aula07/")
 
  ("/home/gil/Documents/Insper/2016.2/FabioAyres/Temas/" (22463 22503 148586 652000) "temas.org~" "./" "temas.org" "../")
 
@@ -52,8 +73,6 @@
  ("/home/gil/Documents/Bash/" (22459 5244 527986 365000) ".git/" "README.md" ".bashrc" "./" "plugins/" "emacscommit.sh" "emacsopen.sh" "gitcommit.sh" ".gitignore" "../")
 
  ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula03/Web/" (22459 624 744089 671000) ".git/" "./" "index.html" "index.html~" "../" "#index.html#")
-
- ("/home/gil/Documents/Insper/" (22447 34796 928941 528000) "2016.2/" "./" "../")
 
  ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula03/" (22455 22065 147063 729000) "./" "Web/" "../")
 
@@ -64,8 +83,6 @@
  ("/home/gil/Documents/CESAR/" (22418 43074 55862 930000) "MapTestJS/" "../" "MapTest/" "./")
 
  ("/home/gil/Documents/C++/Tutorials/Snake/" (22426 42195 84571 679000) "LICENSE.md" "../" "snake.cpp" "Snake" "#snake.cpp#" ".gitignore" "./" "README.md" ".git/")
-
- ("/home/" (22405 39355 247174 739000) "gil/" "../" "./")
 
  ("/home/gil/Documents/C++/Tutorials/" (22419 60384 110407 500000) "stupid_test.cpp" "TestNCurses/" "../" "Snake/" "a.out" "./" "stupid_test.cpp~")
 
