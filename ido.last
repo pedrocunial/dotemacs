@@ -2,6 +2,9 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/etc/xdg/" . "termite/")
+ ("/etc/" . "xdg/")
+ ("/" . "etc/")
  ("/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/" . "src/")
  ("/home/gil/Documents/Insper/2016.2/" . "TecWeb/")
  ("/home/gil/Documents/Insper/" . "2016.2/")
@@ -16,6 +19,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/etc/xdg/termite/"
  "/home/gil/.emacs.d/"
  "/home/gil/Documents/Insper/2016.2/TecWeb/test-aula-pcunial/"
  "/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/src/"
@@ -27,6 +31,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "config"
  "init.el"
  "app.py"
  "Exemplo.java"
@@ -40,6 +45,14 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/etc/xdg/termite/" (22497 10954 898689 237000) "config" "./" ".config.swp" "../")
+
+ ("/etc/xdg/" (22489 10853 928140 808000) "accept-languages.codes" "./" "systemd/" "menus/" "qtchooser/" "user-dirs.defaults" "kshorturifilterrc" "autostart/" "user-dirs.conf" "org_kde_kwayland.categories" "ui/" "../" "Thunar/" "xfce4/" "tumbler/" "termite/")
+
+ ("/etc/" (22495 58404 304023 143000) "issue" "anacrontab" "pamac.conf" "usb_modeswitch.setup" "papersize" "bash.bashrc" "modprobe.d/" "default/" "printcap" "vconsole.conf" "adjtime" "gshadow" "exports" "usb_modeswitch.d/" "fuse.conf" "shadow-" "inputrc" "openldap/" "idn.conf" "libao.conf" "cron.daily/" "gufw/" "motd" "rc_maps.cfg" "binfmt.d/" "nscd.conf" "kernel/" "mtab" "crypttab" "texmf/" "trusted-key.key" "udev/" "pacman-mirrors.conf" "ntp.conf" "exports.d/" "lvm/" "xdg/" "os-release" "ssh/" "dleyna-server-service.conf" "geoclue/" "libnl/" "mono/" "securetty" "login.defs" "samba/" "man_db.conf" "NetworkManager/" "gai.conf" "passwd.OLD" "cron.d/" "locale.gen.pacnew" "nfsmount.conf" "bash/" "gss/" "vpnc/" "gtk-2.0/" "acpi/" "gconf/" "initcpio/" "cron.weekly/" "rygel.conf" "sane.d/" "wgetrc" "fstab" "gdm/" "X11/" "adobe/" "systemd/" "skel/" "bluetooth/" "protocols" "rc.local.shutdown" "openmpi/" "ImageMagick-6/" "ld.so.conf" "dhcpcd.conf" "plymouth/" "group-" "bumblebee/" "pkcs11/" "conf.d/" "ld.so.cache" "sudoers.d/" "hosts" "java-8-openjdk/" "sudoers" "mime.types" "resolv.conf.bak" "gssapi_mech.conf" "resolv.conf" "chromium/" "passwd-" "cpufreq-bench.conf" "depmod.d/" "bind.keys" "iproute2/" "hp/" "cron.hourly/" "ethertypes" "netconfig" "ld.so.conf.d/" "cron.deny" "locale.gen" "rpc" "pam.d/" "asound.conf" "vimrc" "shadow" ".java/" "logrotate.conf" "cupshelpers/" "pacman.conf" "logrotate.d/" "nilfs_cleanerd.conf" "request-key.d/" "gssproxy/" "dleyna-renderer-service.conf" "libpaper.d/" "dbus-1/" "mdadm.conf" "request-key.conf" "netctl/" "passwd" "pulse/" "polkit-1/" "rc.d/" "whois.conf" "manjaro-release" "group" "idnalias.conf" "cron.monthly/" "rc.local" "mkinitcpio.d/" "java-jdk8/" "services" "bash_completion.d/" "libgda-5.0/" "foomatic/" "apparmor.d/" "bash.bash_logout" "cups/" "nbd-server/" "pcmcia/" "udisks2/" "shells" "healthd.conf" "mysql/" "ssl/" "pm/" "drirc" "gnome-chess/" "nanorc" "pacman.d/" "vdpau_wrapper.cfg" "usb_modeswitch.conf" "hosts.allow" "mail.rc" "gnome-vfs-2.0/" "smartd.conf" "gshadow-" "sysctl.d/" "sensors.d/" "ifplugd/" "opt/" "slsh.rc" "ca-certificates/" "dnsmasq.conf" "openvpn/" "mkinitcpio.conf" "sensors3.conf" "libreoffice/" "ts.conf" "hosts.deny" "brltty.conf" "profile" "xinetd.d/" "UPower/" "yaourtrc" "profile.d/" "lightdm/" "gnome-vfs-mime-magic" "gtk-3.0/" "lsb-release" ".pwd.lock" "ppp/" "krb5.conf" "host.conf" "grub.d/" "tmpfiles.d/" "brlapi.key" "modules-load.d/" "mke2fs.conf" "fonts/" "hostname" "sysconfig/" "rsyncd.conf" "environment" "machine-id" "zsh/" "gimp/" "tomcat8/" "security/" "speech-dispatcher/" "httpd/" "locale.conf" "xml/" "ufw/" "makepkg.conf" "resolvconf.conf" "java-jre8/" "iptables/" "wpa_supplicant/" "rc_keymaps/" ".updated" "asound.state" "avahi/" "updatedb.conf" "nsswitch.conf" "localtime" "../" "./")
+
+ ("/home/gil/" (22497 11134 626637 500000) ".thumbnails/" ".AndroidStudio2.1/" ".zshrc~" ".pki/" ".android/" ".v8flags.5.0.71.57.gil.json" ".ipython/" ".nvidia-settings-rc" ".thunderbird/" "Downloads/" ".bashrc" ".zshrc.pre-oh-my-zsh" ".gstreamer-0.10/" "./" ".xsession-errors.old" ".gtk-bookmarks" "Documents/" ".octave_hist" ".dmrc" "Android/" ".dircolors" ".xinitrc" ".zsh_history" ".ssh/" ".guayadeque/" ".gnupg/" ".zsh-update" ".local/" "Templates/" "octave-workspace" ".eclipse/" ".python_history" ".gitconfig" ".config/" ".zcompdump-DKSummit-5.2" ".Xclients" ".dir_colors" "Videos/" "Pictures/" ".node_repl_history" ".octaverc" ".v8flags.5.0.71.60.gil.json" ".bashrc~" ".ICEauthority" ".java/" ".wget-hsts" "termiteconfig.backup" ".gnome/" ".icons/" ".xfce4-session.verbose-log" ".mozilla/" ".cmake/" ".xsession-errors" ".bash_logout" ".emacs.d/" ".npm/" ".bash_history" ".xprofile" ".tmux.conf~" ".zshrc" ".cache/" ".oh-my-zsh/" ".yaourtrc" ".face" "Music/" ".node-gyp/" ".tooling/" ".bash_profile" ".swt/" ".viminfo" ".atom/" ".kde4/" ".Xauthority" ".gimp-2.8/" ".gradle/" "Desktop/" "../" ".tmux.conf" "workspace/" "Public/" ".octaverc~" ".esd_auth" ".extend.bashrc" ".vim/" ".hplip/" ".xfce4-session.verbose-log.last" ".#termiteconfig.backup")
+
  ("/home/gil/.emacs.d/" (22492 37881 906761 432000) "games/" ".git/" "themes/" "README.md" "elpa/" "init.el" "./" "ido.last" "ac-comphist.dat" "auto-save-list/" "plugins/" "snippets/" ".gitignore" "ido.last~" "session.298f15f49-2289-4fc7-bb1b-6c23fd12d0d9" "../")
 
  ("/home/gil/Documents/Insper/2016.2/TecWeb/test-aula-pcunial/" (22490 53933 151645 776000) "static/" ".git/" "README.md" "License.txt" "database.db" "app.py~" "app.py" "./" "CHANGELOG.md" "server.py" "Procfile" "manifest.yml" "templates/" "app.pyc" "requirements.txt" "../" "__pycache__/")
@@ -55,8 +68,6 @@
  ("/home/gil/Documents/" (22489 36441 540909 388000) "./" "Web/" "LaTeX/" "Go/" "Bash/" "Octave/" "CESAR/" "OverTheWire/" "../" "Insper/")
 
  ("/home/" (22447 32855 451189 349000) "./" "gil/" "../")
-
- ("/home/gil/" (22492 38635 55713 786000) ".thumbnails/" ".AndroidStudio2.1/" ".zshrc~" ".pki/" ".android/" ".v8flags.5.0.71.57.gil.json" ".ipython/" ".nvidia-settings-rc" ".thunderbird/" "Downloads/" ".bashrc" ".zshrc.pre-oh-my-zsh" ".gstreamer-0.10/" "./" ".xsession-errors.old" ".gtk-bookmarks" "Documents/" ".octave_hist" ".dmrc" "Android/" ".dircolors" ".xinitrc" ".zsh_history" ".ssh/" ".guayadeque/" ".gnupg/" ".zsh-update" ".local/" "Templates/" "octave-workspace" ".eclipse/" ".python_history" ".gitconfig" ".config/" ".zcompdump-DKSummit-5.2" ".Xclients" ".dir_colors" "Videos/" "Pictures/" ".node_repl_history" ".octaverc" ".v8flags.5.0.71.60.gil.json" ".bashrc~" ".ICEauthority" ".java/" ".wget-hsts" ".gnome/" ".icons/" ".xfce4-session.verbose-log" ".mozilla/" ".cmake/" ".xsession-errors" ".bash_logout" ".emacs.d/" ".npm/" ".bash_history" ".xprofile" ".tmux.conf~" ".zshrc" ".cache/" ".oh-my-zsh/" ".yaourtrc" ".face" "Music/" ".node-gyp/" ".tooling/" ".bash_profile" ".swt/" ".viminfo" ".atom/" ".kde4/" ".Xauthority" ".gimp-2.8/" ".gradle/" "Desktop/" "../" ".tmux.conf" "workspace/" "Public/" ".octaverc~" ".esd_auth" ".extend.bashrc" ".vim/" ".hplip/" ".xfce4-session.verbose-log.last")
 
  ("/home/gil/Documents/Go/Learning/" (22491 4431 430616 50000) "structexample.go~" ".structexample.go.swp" "./" "structexample.go" "polymorphism.go~" "../" "polymorphism.go")
 
