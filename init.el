@@ -415,7 +415,23 @@ Return the absolute value of OFFSET, converted to string."
 ;;;;;;;;;;;;;;;;; JavaScript ;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;; Arduino ;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; arduino-mode
+;; (require 'arduino-mode-autoloads)
+;; (autoload 'arduino-mode "arduino-mode" "Arduino editing mode." t)
+;; (add-to-list 'auto-mode-alist '("\.ino$" . arduino-mode))
+(setq auto-mode-alist (cons '("\\.\\(pde\\|ino\\)$" . arduino-mode) auto-mode-alist))
+(autoload 'arduino-mode "arduino-mode" "Arduino editing mode." t)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;; Arduino ;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;; Init smart-tabs
 (setq-default tab-width 4)
 (setq cua-auto-tabify-rectangles nil)
 (smart-tabs-insinuate 'c 'c++ 'java 'javascript)
+
