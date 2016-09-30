@@ -85,6 +85,9 @@
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))
  '(inhibit-startup-screen t)
+ '(package-selected-packages
+   (quote
+    (atom-one-dark-theme zenburn-theme web-mode suscolors-theme smooth-scrolling smart-tabs-mode smart-tab seq relative-line-numbers rainbow-identifiers rainbow-delimiters pythonic pyimport py-import-check powerline pkg-info org-bullets nodejs-repl neotree material-theme let-alist less-css-mode indent-guide highlight-indent-guides gruvbox-theme go-mode go-autocomplete flymake-go evil-surround evil-smartparens evil-org evil-nerd-commenter evil-magit elpy company-jedi colorsarenice-theme auto-indent-mode arduino-mode)))
  '(python-shell-interpreter "ipython3")
  '(rainbow-identifiers-cie-l*a*b*-lightness 70)
  '(rainbow-identifiers-cie-l*a*b*-saturation 20)
@@ -116,7 +119,8 @@
 (require 'nodejs-repl)
 
 ;; Theme
-(load-theme 'gruvbox t)
+(load-theme 'atom-one-dark t)
+;; (load-theme 'gruvbox t)
 ;; (load-theme 'zenburn t)
 ;; (load-theme 'suscolors t)
 ;; (load-theme 'material t)
@@ -167,14 +171,16 @@ Return the absolute value of OFFSET, converted to string."
 ;; as our default font, otherwise, we'll check if we have the regular
 ;; inconsolata, if soo that will be our font.
 ;; If none of the conditions are met, we'll keep the systems original font
-(if (font-exists-p "Inconsolata-g")
-    (set-default-font "Inconsolata-g-14")
-    (if (font-exists-p "Source Code Pro Medium")
-        (set-default-font "Source Code Pro Medium 14")
-        (if (font-exists-p "Meslo LG M")
-            (set-default-font "Meslo LG M 14")
-            (if (font-exists-p "Inconsolata")
-                (set-default-font "Inconsolata-14")))))
+(if (font-exists-p "Monospace")
+    (set-default-font "Monospace 14")
+    (if (font-exists-p "Inconsolata-g")
+        (set-default-font "Inconsolata-g-14")
+        (if (font-exists-p "Source Code Pro Medium")
+            (set-default-font "Source Code Pro Medium 14")
+            (if (font-exists-p "Meslo LG M")
+                (set-default-font "Meslo LG M 14")
+                (if (font-exists-p "Inconsolata")
+                    (set-default-font "Inconsolata-14"))))))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -193,7 +199,7 @@ Return the absolute value of OFFSET, converted to string."
 
 ;; Rainbow Delimiters (Parenthesis, brackets etc will have different
 ;; color based on their "level")
-(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+(add-hook 'emacs-lisp-mode-hook #'rainbow-delimiters-mode)
 
 ;; NeoTree
 (require 'neotree)
