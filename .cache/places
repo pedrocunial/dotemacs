@@ -1,0 +1,65 @@
+;;; -*- coding: utf-8 -*-
+(("/home/gil/.emacs.d/.cache/recentf" . 1453)
+ ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1336)
+ ("/home/gil/.spacemacs" . 2406)
+ ("/home/gil/.emacs.d/elpa/org-20161003/org-loaddefs.el" . 88621)
+ ("/home/gil/Documents/Bash/emacsopen.sh" . 186)
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/src/"
+  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/src/.."))
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/src/dbtest/"
+  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/src/dbtest/Atualiza.java"))
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/src/dbtest/Atualiza.java" . 531)
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/"
+  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.."))
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/"
+  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest"))
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/app.py" . 741)
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/"
+  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/topic_view.html"))
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/topic.html" . 3280)
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/topic_view.html" . 3758)
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/"
+  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/app.py"))
+ ("/home/gil/Documents/Bash/.zshrc" . 3995)
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/WebContent/"
+  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/WebContent/calcula-idade.jsp"))
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/build/"
+  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/build/.."))
+ ("/home/gil/Documents/Web/Oficina/"
+  (dired-filename . "/home/gil/Documents/Web/Oficina/cloud.html"))
+ ("/home/gil/Documents/Web/Oficina/cloud.html" . 1678)
+ ("/home/gil/Documents/Web/Oficina/mapa.html" . 2924)
+ ("/home/gil/Documents/Web/Oficina/css/"
+  (dired-filename . "/home/gil/Documents/Web/Oficina/css/.."))
+ ("/home/gil/Documents/Web/Oficina/css/custom.css" . 63)
+ ("/home/gil/Documents/Web/Oficina/js/"
+  (dired-filename . "/home/gil/Documents/Web/Oficina/js/.."))
+ ("/home/gil/Documents/Web/Oficina/fonts/"
+  (dired-filename . "/home/gil/Documents/Web/Oficina/fonts/glyphicons-halflings-regular.eot"))
+ ("/home/gil/Documents/Go/Learning/"
+  (dired-filename . "/home/gil/Documents/Go/Learning/polymorphism.go"))
+ ("/home/gil/Documents/Go/Learning/polymorphism.go" . 379)
+ ("/home/gil/Documents/Go/"
+  (dired-filename . "/home/gil/Documents/Go/.."))
+ ("/home/gil/Documents/"
+  (dired-filename . "/home/gil/Documents/Insper"))
+ ("/home/gil/Documents/Insper/"
+  (dired-filename . "/home/gil/Documents/Insper/2016.2"))
+ ("/home/gil/Documents/Insper/2016.2/"
+  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb"))
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/cons.html" . 34)
+ ("/home/gil/.emacs.d/elpa/helm-company-20160516.2258/helm-company-autoloads.el" . 463)
+ ("/home/gil/.emacs.d/elpa/helm-c-yasnippet-20160823.611/helm-c-yasnippet-autoloads.el" . 708)
+ ("/home/gil/.emacs.d/elpa/company-statistics-0.2.2/company-statistics-autoloads.el" . 1426)
+ ("/home/gil/.emacs.d/elpa/company-20160829.1206/company-autoloads.el" . 8792)
+ ("/home/gil/.emacs.d/elpa/auto-yasnippet-20160925.225/auto-yasnippet-autoloads.el" . 1554)
+ ("/home/gil/.emacs.d/elpa/yasnippet-20160801.1142/yasnippet-autoloads.el" . 1642)
+ ("/home/gil/.emacs.d/elpa/ac-ispell-20151031.1926/ac-ispell-autoloads.el" . 558)
+ ("/home/gil/.emacs.d/elpa/auto-complete-20160827.649/auto-complete-autoloads.el" . 1733)
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/aula-eclipse/"
+  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/aula-eclipse/.."))
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/static/"
+  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/static/.."))
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/academic.html" . 1357)
+ ("/home/gil/.emacs.d/init.el" . 273)
+ ("/home/gil/.emacs.d/elpa/org-plus-contrib-20161003/org-loaddefs.el" . 95439))

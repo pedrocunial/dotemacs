@@ -1,0 +1,1 @@
+("~/Documents/Insper/2016.2/TecWeb/dbtest/" "~/Documents/Insper/2016.2/TecWeb/ForumTest/" "~/Documents/Bash/" "~/.emacs.d/")

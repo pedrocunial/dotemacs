@@ -1,0 +1,33 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/build/" . "classes/")
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/" . "build/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/"
+ "/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/build/classes/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "README.md"
+ "Exemplo.class"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/build/classes/" (22516 65066 990811 839000) "Exemplo.class" "./" "../")
+
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/build/" (22491 55957 906659 324000) "classes/" "./" "../")
+
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/" (22491 55957 916659 396000) "./" "WebContent/" ".classpath" "build/" ".settings/" "src/" "../" ".project")
+
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/" (22516 64743 278519 714000) ".git/" "README.md" ".metadata/" "./" "eclimd.log" "WebContent/" ".classpath" "build/" ".settings/" "src/" "RemoteSystemsTempFiles/" ".gitignore" ".gitignore~" "README.md~" "../" ".project")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
