@@ -1,8 +1,18 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/gil/.emacs.d/README.md" . 1894)
- ("/home/gil/.emacs.d/.cache/recentf" . 1532)
- ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1404)
- ("/home/gil/.emacs.d/.spacemacs" . 4364)
+(("/home/gil/Documents/Arduino/Sequencia/"
+  (dired-filename . "/home/gil/Documents/Arduino/Sequencia/Sequencia.ino"))
+ ("/home/gil/Documents/Arduino/Sequencia/Sequencia.ino" . 1692)
+ ("/home/gil/.emacs.d/.cache/recentf" . 1773)
+ ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1539)
+ ("/home/gil/Documents/Python/"
+  (dired-filename . "/home/gil/Documents/Python/test.ipynb"))
+ ("/home/gil/.emacs.d/.spacemacs" . 2475)
+ ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/README.md" . 726)
+ ("/home/gil/Documents/Go/Learning/polymorphism.go" . 538)
+ ("/home/gil/Documents/Go/Learning/"
+  (dired-filename . "/home/gil/Documents/Go/Learning/shapepolymorphism.go"))
+ ("/home/gil/Documents/Go/Learning/shapepolymorphism.go" . 444)
+ ("/home/gil/.emacs.d/README.md" . 1894)
  ("/home/gil/.emacs.d/elpa/org-20161003/org-loaddefs.el" . 88621)
  ("/home/gil/Documents/Bash/emacsopen.sh" . 186)
  ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/src/"
@@ -37,9 +47,6 @@
   (dired-filename . "/home/gil/Documents/Web/Oficina/js/.."))
  ("/home/gil/Documents/Web/Oficina/fonts/"
   (dired-filename . "/home/gil/Documents/Web/Oficina/fonts/glyphicons-halflings-regular.eot"))
- ("/home/gil/Documents/Go/Learning/"
-  (dired-filename . "/home/gil/Documents/Go/Learning/polymorphism.go"))
- ("/home/gil/Documents/Go/Learning/polymorphism.go" . 379)
  ("/home/gil/Documents/Go/"
   (dired-filename . "/home/gil/Documents/Go/.."))
  ("/home/gil/Documents/"
