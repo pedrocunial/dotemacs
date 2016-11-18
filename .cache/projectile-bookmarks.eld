@@ -1,1 +1,1 @@
-("~/Documents/Insper/2016.2/TecWeb/dbtest/" "~/Documents/Insper/2016.2/TecWeb/ForumTest/" "~/Documents/Bash/" "~/.emacs.d/")
+("~/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/" "~/data1/code/" "~/Documents/Bash/" "~/Documents/Insper/2016.2/FabioAyres/Artigos/" "~/Documents/Insper/2016.2/TecWeb/Aula16/" "~/.emacs.d/" "~/Documents/Insper/2016.2/TecWeb/dbtest/" "~/openface/" "~/.oh-my-zsh/" "~/Documents/CESAR/MapTest/" "~/Documents/Insper/2016.2/TecWeb/ForumTest/")

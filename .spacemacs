@@ -61,6 +61,12 @@ values."
      emacs-lisp
      extra-langs
      ipython-notebook
+     ;; (spell-checking :variables
+     ;;                 ispell-program-name "aspell"
+     ;;                 ispell-dictionary "pt_BR"
+     ;;                 )
+     lua
+     smart-tabs
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -70,7 +76,7 @@ values."
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
-   dotspacemacs-excluded-packages '()
+   dotspacemacs-excluded-packages '(spell-checking ispell)
    ;; Defines the behaviour of Spacemacs when installing packages.
    ;; Possible values are `used-only', `used-but-keep-unused' and `all'.
    ;; `used-only' installs only explicitly used packages and uninstall any
@@ -89,6 +95,8 @@ values."
   ;; This setq-default sexp is an exhaustive list of all the supported
   ;; spacemacs settings.
   (setq-default
+   ;; ispell default spellchecker
+   ispell-program-name "aspell"
    ;; If non nil ELPA repositories are contacted via HTTPS whenever it's
    ;; possible. Set it to nil if you have no way to use HTTPS in your
    ;; environment, otherwise it is strongly recommended to let it set to t.
@@ -144,8 +152,8 @@ values."
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
-   dotspacemacs-default-font '("Monospace"
-                               :size 18
+   dotspacemacs-default-font '("Inconsolata"
+                               :size 22
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
@@ -307,6 +315,12 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
+  (add-hook 'c-mode-hook
+            '(lambda ()
+               (setq indent-tabs-mode t)
+               (setq tab-width 8)
+               ))
+  (defvaralias 'c-basic-offset 'tab-width)
   )
 
 (defun dotspacemacs/user-config ()
@@ -318,6 +332,7 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (setq eclim-eclipse-dirs "/usr/lib/eclipse"
         eclim-executable "/usr/lib/eclipse/eclim")
+  (add-hook 'latex-mode-hook 'ispell-minor-mode)
  )
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
@@ -328,7 +343,7 @@ you should place your code here."
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (ein websocket mmm-mode markdown-toc markdown-mode gh-md xterm-color shell-pop multi-term eshell-z eshell-prompt-extras esh-help wolfram-mode thrift stan-mode scad-mode qml-mode matlab-mode julia-mode org-projectile org-present org org-pomodoro alert log4e gntp org-download htmlize gnuplot company-auctex auctex-latexmk auctex company-emacs-eclim eclim disaster company-c-headers cmake-mode clang-format web-beautify livid-mode skewer-mode simple-httpd json-mode json-snatcher json-reformat js2-refactor multiple-cursors js2-mode js-doc company-tern dash-functional tern coffee-mode yapfify pyvenv pytest pyenv-mode py-isort pip-requirements live-py-mode hy-mode helm-pydoc cython-mode company-anaconda anaconda-mode tagedit slim-mode scss-mode sass-mode jade-mode helm-css-scss haml-mode go-eldoc emmet-mode company-web web-completion-data company-go helm-company helm-c-yasnippet company-statistics company auto-yasnippet yasnippet ac-ispell auto-complete ws-butler window-numbering which-key volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline restart-emacs request popwin persp-mode pcre2el paradox spinner org-plus-contrib open-junk-file move-text macrostep lorem-ipsum linum-relative link-hint info+ ido-vertical-mode hydra hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make projectile helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-search-highlight-persist evil-numbers evil-mc evil-matchit evil-lisp-state evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu eval-sexp-fu highlight elisp-slime-nav dumb-jump diminish define-word column-enforce-mode clean-aindent-mode bind-map bind-key auto-highlight-symbol auto-compile packed aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line helm avy helm-core quelpa package-build spacemacs-theme zenburn-theme web-mode suscolors-theme smooth-scrolling smart-tabs-mode smart-tab seq relative-line-numbers rainbow-identifiers rainbow-delimiters pythonic pyimport py-import-check powerline pkg-info org-bullets nodejs-repl neotree material-theme let-alist less-css-mode indent-guide highlight-indent-guides gruvbox-theme go-mode go-autocomplete flymake-go evil-surround evil-smartparens evil-org evil-nerd-commenter evil-magit elpy company-jedi colorsarenice-theme auto-indent-mode atom-one-dark-theme arduino-mode))))
+    (lua-mode flyspell-correct-helm flyspell-correct auto-dictionary ein websocket mmm-mode markdown-toc markdown-mode gh-md xterm-color shell-pop multi-term eshell-z eshell-prompt-extras esh-help wolfram-mode thrift stan-mode scad-mode qml-mode matlab-mode julia-mode org-projectile org-present org org-pomodoro alert log4e gntp org-download htmlize gnuplot company-auctex auctex-latexmk auctex company-emacs-eclim eclim disaster company-c-headers cmake-mode clang-format web-beautify livid-mode skewer-mode simple-httpd json-mode json-snatcher json-reformat js2-refactor multiple-cursors js2-mode js-doc company-tern dash-functional tern coffee-mode yapfify pyvenv pytest pyenv-mode py-isort pip-requirements live-py-mode hy-mode helm-pydoc cython-mode company-anaconda anaconda-mode tagedit slim-mode scss-mode sass-mode jade-mode helm-css-scss haml-mode go-eldoc emmet-mode company-web web-completion-data company-go helm-company helm-c-yasnippet company-statistics company auto-yasnippet yasnippet ac-ispell auto-complete ws-butler window-numbering which-key volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline restart-emacs request popwin persp-mode pcre2el paradox spinner org-plus-contrib open-junk-file move-text macrostep lorem-ipsum linum-relative link-hint info+ ido-vertical-mode hydra hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make projectile helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-search-highlight-persist evil-numbers evil-mc evil-matchit evil-lisp-state evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu eval-sexp-fu highlight elisp-slime-nav dumb-jump diminish define-word column-enforce-mode clean-aindent-mode bind-map bind-key auto-highlight-symbol auto-compile packed aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line helm avy helm-core quelpa package-build spacemacs-theme zenburn-theme web-mode suscolors-theme smooth-scrolling smart-tabs-mode smart-tab seq relative-line-numbers rainbow-identifiers rainbow-delimiters pythonic pyimport py-import-check powerline pkg-info org-bullets nodejs-repl neotree material-theme let-alist less-css-mode indent-guide highlight-indent-guides gruvbox-theme go-mode go-autocomplete flymake-go evil-surround evil-smartparens evil-org evil-nerd-commenter evil-magit elpy company-jedi colorsarenice-theme auto-indent-mode atom-one-dark-theme arduino-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
