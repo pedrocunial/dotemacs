@@ -67,6 +67,8 @@ values."
      ;;                 )
      lua
      smart-tabs
+     (c-c++ :variables
+            c-c++-default-mode-for-headers 'c++-mode)
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -300,13 +302,14 @@ values."
    ;; (default nil)
    dotspacemacs-whitespace-cleanup nil
    )
-  (setq exec-path-from-shell-variables '("PATH"
-                                         "MANPATH"
+  ;; (setq exec-path-from-shell-variables '("PATH"
+  ;;                                        "MANPATH"
 
-                                         ;; GO
-                                         "GOPATH"
-                                         "GOROOT"
-                                         "GOBIN")))
+  ;;                                        ;; GO
+  ;;                                        "GOPATH"
+  ;;                                        "GOROOT"
+  ;;                                        "GOBIN"))
+  )
 
 (defun dotspacemacs/user-init ()
   "Initialization function for user code.
@@ -315,17 +318,6 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
-  ;; (add-hook 'c-mode-hook
-  ;;           '(lambda ()
-  ;;              (setq indent-tabs-mode t)
-  ;;              (setq tab-width 8)
-  ;;              ))
-  ;; (defvaralias 'c-basic-offset 'tab-width)
-  (add-hook 'cc-mode '(lambda ()
-            (setq-default indent-tabs-mode t)
-            (setq-default tab-width 8)
-            (defvaralias 'c-basic-offset 'tab-width)
-            ))
   )
 
 (defun dotspacemacs/user-config ()
@@ -338,6 +330,28 @@ you should place your code here."
   (setq eclim-eclipse-dirs "/usr/lib/eclipse"
         eclim-executable "/usr/lib/eclipse/eclim")
   (add-hook 'latex-mode-hook 'ispell-minor-mode)
+
+  (defun my-c-mode-hook ()
+    ;; my custom c configurations
+    (c-set-offset 'substatement-open 0)
+
+    (setq c++-tab-always-indent t)
+    (setq c-basic-offset 4)
+    (setq c-indent-level 4)
+
+    (setq tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60))
+    (setq tab-width 4)
+    (setq indent-tabs-mode t)
+    )
+
+  ;; (add-hook c-mode-common-hook 'my-c-mode-hook)
+  (add-hook 'c-mode-common-hook
+            (lambda ()
+              (setq-default indent-tabs-mode t)
+              (setq-default tab-width 4)
+              ;; (defvaralias 'c-basic-offset 'tab-width)
+              ))
+
  )
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
