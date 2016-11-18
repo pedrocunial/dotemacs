@@ -315,11 +315,14 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
-  (add-hook 'c-mode-hook
-            '(lambda ()
-               (setq indent-tabs-mode t)
-               (setq tab-width 8)
-               ))
+  ;; (add-hook 'c-mode-hook
+  ;;           '(lambda ()
+  ;;              (setq indent-tabs-mode t)
+  ;;              (setq tab-width 8)
+  ;;              ))
+  ;; (defvaralias 'c-basic-offset 'tab-width)
+  (setq-default indent-tabs-mode t)
+  (setq-default tab-width 8)
   (defvaralias 'c-basic-offset 'tab-width)
   )
 
