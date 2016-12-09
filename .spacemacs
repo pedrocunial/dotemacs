@@ -155,7 +155,7 @@ values."
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
    dotspacemacs-default-font '("Inconsolata"
-                               :size 22
+                               :size 21
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
@@ -331,27 +331,8 @@ you should place your code here."
         eclim-executable "/usr/lib/eclipse/eclim")
   (add-hook 'latex-mode-hook 'ispell-minor-mode)
 
-  (defun my-c-mode-hook ()
-    ;; my custom c configurations
-    (c-set-offset 'substatement-open 0)
-
-    (setq c++-tab-always-indent t)
-    (setq c-basic-offset 4)
-    (setq c-indent-level 4)
-
-    (setq tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60))
-    (setq tab-width 4)
-    (setq indent-tabs-mode t)
-    )
-
-  ;; (add-hook c-mode-common-hook 'my-c-mode-hook)
-  (add-hook 'c-mode-common-hook
-            (lambda ()
-              (setq-default indent-tabs-mode t)
-              (setq-default tab-width 4)
-              ;; (defvaralias 'c-basic-offset 'tab-width)
-              ))
-
+  ;; 4 spaces
+  ;; (setq c-guess-guessed-basic-offset 4)
  )
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.

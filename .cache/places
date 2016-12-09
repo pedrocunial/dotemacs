@@ -1,10 +1,74 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/gil/.emacs.d/.spacemacs" . 17648)
- ("/home/gil/.emacs.d/.cache/recentf" . 7767)
- ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1416)
+(("/home/gil/Documents/Go/src/chatinsper/web/model/chat.go" . 3007)
+ ("/home/gil/.spacemacs" . 8068)
+ ("/home/gil/Documents/Insper/2016.2/CoDesign/avaliaca.org" . 509)
+ ("/home/gil/.emacs.d/.cache/recentf" . 9716)
+ ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1861)
+ ("/home/gil/Documents/Go/src/chatinsper/web/css/"
+  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/web/css/.."))
+ ("/home/gil/Documents/Go/src/chatinsper/web/css/chat.css" . 5)
+ ("/home/gil/Documents/Go/src/chatinsper/"
+  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/web"))
+ ("/home/gil/Documents/Go/src/chatinsper/main.go" . 511)
+ ("/home/gil/Documents/Go/src/chatinsper/web/controller/chat.js" . 520)
+ ("/home/gil/Documents/Go/src/chatinsper/web/controller/"
+  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/web/controller/.."))
+ ("/home/gil/Documents/Go/src/chatinsper/web/"
+  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/web/model"))
+ ("/home/gil/Documents/Go/src/chatinsper/web/model/"
+  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/web/model/chat.go"))
+ ("/home/gil/Documents/Go/src/chatinsper/web/view/"
+  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/web/view/.."))
+ ("/home/gil/Documents/Go/src/chatinsper/web/view/index.html" . 1466)
+ ("/home/gil/Documents/Bash/.zshrc" . 2800)
+ ("/home/gil/Documents/Bash/mygentoo.zsh-theme" . 652)
+ ("/home/gil/Documents/Go/src/chatinsper/README.md" . 835)
+ ("/home/gil/Documents/Go/src/chatinsper/LICENSE.md" . 34939)
+ ("/home/gil/Documents/Go/src/chatinsper/vendor/"
+  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/vendor/.."))
+ ("/home/gil/Documents/Go/src/github.com/heroku/go-getting-started/"
+  (dired-filename . "/home/gil/Documents/Go/src/github.com/heroku/go-getting-started/.."))
+ ("/home/gil/Documents/Go/src/github.com/heroku/"
+  (dired-filename . "/home/gil/Documents/Go/src/github.com/heroku/.."))
+ ("/home/gil/Documents/Go/src/"
+  (dired-filename . "/home/gil/Documents/Go/src/github.com"))
+ ("/home/gil/Documents/Go/src/github.com/"
+  (dired-filename . "/home/gil/Documents/Go/src/github.com/heroku-examples"))
+ ("/home/gil/Documents/Go/src/github.com/heroku-examples/"
+  (dired-filename . "/home/gil/Documents/Go/src/github.com/heroku-examples/go-websocket-chat-demo"))
+ ("/home/gil/Documents/Go/src/github.com/heroku-examples/go-websocket-chat-demo/"
+  (dired-filename . "/home/gil/Documents/Go/src/github.com/heroku-examples/go-websocket-chat-demo/main.go"))
+ ("/home/gil/Documents/Go/src/github.com/heroku-examples/go-websocket-chat-demo/main.go" . 1421)
+ ("/home/gil/.emacs.d/.spacemacs" . 2962)
+ ("/home/gil/Documents/Go/Learning/src/"
+  (dired-filename . "/home/gil/Documents/Go/Learning/src/.."))
+ ("/home/gil/Documents/Go/Learning/pkg/"
+  (dired-filename . "/home/gil/Documents/Go/Learning/pkg/.."))
+ ("/home/gil/Documents/"
+  (dired-filename . "/home/gil/Documents/Go"))
+ ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_1/main.go" . 127)
+ ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_1/web/test.html" . 484)
+ ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_1/web/"
+  (dired-filename . "/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_1/web/.."))
+ ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/.git/"
+  (dired-filename . "/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/.git/.."))
+ ("/home/gil/Documents/Go/Learning/"
+  (dired-filename . "/home/gil/Documents/Go/Learning/.."))
+ ("/home/gil/Documents/Go/"
+  (dired-filename . "/home/gil/Documents/Go/src"))
+ ("/home/gil/Documents/Go/src/github.com/jakecoffman/"
+  (dired-filename . "/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial"))
+ ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_1/"
+  (dired-filename . "/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_1/.."))
+ ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/"
+  (dired-filename . "/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_2"))
+ ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_2/"
+  (dired-filename . "/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_2/main.go"))
+ ("/home/gil/Documents/Go/Learning/polymorphism.go" . 702)
+ ("/usr/lib/eclipse/eclipse.ini" . 315)
+ ("/etc/xdg/termite/config" . 209)
  ("/home/gil/Documents/C/t.c" . 12)
  ("/home/gil/Documents/C/checksum.c" . 242)
- ("/etc/xdg/termite/config" . 209)
  ("/home/gil/data1/Dockerfile" . 16)
  ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/"
   (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src"))
@@ -38,8 +102,6 @@
  ("/home/gil/data1/code/README.md" . 233)
  ("/home/gil/"
   (dired-filename . "/home/gil/Documents"))
- ("/home/gil/Documents/"
-  (dired-filename . "/home/gil/Documents/Insper"))
  ("/home/gil/Documents/Bash/"
   (dired-filename . "/home/gil/Documents/Bash/gitcommit.sh"))
  ("/home/gil/Documents/Insper/"
@@ -97,7 +159,6 @@
   (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/src/mvc"))
  ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/insper/recfacial/utils/Docker.java" . 1835)
  ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/.gitignore" . 76)
- ("/home/gil/Documents/Bash/mygentoo.zsh-theme" . 275)
  ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/WebContent/WEB-INF/"
   (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/WebContent/WEB-INF/views"))
  ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/WebContent/WEB-INF/views/"
@@ -129,7 +190,6 @@
  ("/home/gil/Documents/Bash/dpoggi-linebreak.zsh-theme" . 360)
  ("/home/gil/.oh-my-zsh/themes/mygentoo.zsh-theme" . 146)
  ("/home/gil/.oh-my-zsh/themes/dpoggi-linebreak.zsh-theme" . 128)
- ("/home/gil/Documents/Bash/.zshrc" . 397)
  ("/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/Referencias/"
   (dired-filename . "/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/Referencias/outros.txt"))
  ("/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/Referencias/outros.txt" . 38)
@@ -138,13 +198,6 @@
   (dired-filename . "/home/gil/Documents/Insper/2016.2/FabioAyres/GnuRadio/top_block.py"))
  ("/home/gil/Documents/Insper/2016.2/FabioAyres/GnuRadio/top_block.py" . 2)
  ("/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/README.md" . 109)
- ("/home/gil/Documents/Insper/2016.2/CoDesign/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/CoDesign/.."))
- ("/home/gil/Documents/CESAR/"
-  (dired-filename . "/home/gil/Documents/CESAR/.."))
- ("/home/gil/Documents/CESAR/MapTest/"
-  (dired-filename . "/home/gil/Documents/CESAR/MapTest/.gitignore"))
- ("/home/gil/Documents/CESAR/MapTest/.gitignore" . 54)
  ("/home/gil/Documents/Insper/2016.2/FabioAyres/"
   (dired-filename . "/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos"))
  ("/home/gil/Documents/Bash/emacsopen.sh" . 186)
@@ -216,9 +269,6 @@
   (dired-filename . "/home/gil/Documents/Arduino/Sequencia/Sequencia.ino"))
  ("/home/gil/Documents/Arduino/Sequencia/Sequencia.ino" . 1692)
  ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/README.md" . 726)
- ("/home/gil/Documents/Go/Learning/polymorphism.go" . 538)
- ("/home/gil/Documents/Go/Learning/"
-  (dired-filename . "/home/gil/Documents/Go/Learning/shapepolymorphism.go"))
  ("/home/gil/Documents/Go/Learning/shapepolymorphism.go" . 444)
  ("/home/gil/.emacs.d/README.md" . 1894)
  ("/home/gil/.emacs.d/elpa/org-20161003/org-loaddefs.el" . 88621)
@@ -238,8 +288,6 @@
   (dired-filename . "/home/gil/Documents/Web/Oficina/js/.."))
  ("/home/gil/Documents/Web/Oficina/fonts/"
   (dired-filename . "/home/gil/Documents/Web/Oficina/fonts/glyphicons-halflings-regular.eot"))
- ("/home/gil/Documents/Go/"
-  (dired-filename . "/home/gil/Documents/Go/.."))
  ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/cons.html" . 34)
  ("/home/gil/.emacs.d/elpa/helm-company-20160516.2258/helm-company-autoloads.el" . 463)
  ("/home/gil/.emacs.d/elpa/helm-c-yasnippet-20160823.611/helm-c-yasnippet-autoloads.el" . 708)
