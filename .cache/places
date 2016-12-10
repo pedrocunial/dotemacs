@@ -1,10 +1,14 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/gil/.emacs.d/.cache/recentf" . 10201)
- ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1338)
- ("/home/gil/.emacs.d/.spacemacs" . 2470)
- ("/home/gil/Documents/Ruby/firstut/ruby/"
+(("/home/gil/Documents/Ruby/firstut/ruby/"
   (dired-filename . "/home/gil/Documents/Ruby/firstut/ruby/first.rb"))
- ("/home/gil/Documents/Ruby/firstut/ruby/first.rb" . 3984)
+ ("/home/gil/Documents/Ruby/firstut/ruby/symbols.rb" . 1721)
+ ("/home/gil/.emacs.d/.cache/recentf" . 10496)
+ ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1495)
+ ("/home/gil/Documents/Ruby/firstut/ruby/first.rb" . 5965)
+ ("/home/gil/Documents/Ruby/firstut/ruby/intermidiate.rb" . 576)
+ ("/home/gil/Documents/Ruby/firstut/ruby/smart.rb" . 77)
+ ("/home/gil/.emacs.d/README.md" . 15)
+ ("/home/gil/.emacs.d/.spacemacs" . 2470)
  ("/home/gil/Documents/Ruby/firstut/ruby/second.rb" . 35)
  ("/home/gil/Documents/Bash/.zshrc" . 4132)
  ("/home/gil/Documents/Ruby/firstut/ruby/yourSum.out" . 13)
@@ -25,7 +29,6 @@
   (dired-filename . "/home/gil/Documents/Go/src/chatinsper/main.go"))
  ("/home/gil/Documents/Go/src/chatinsper/main.go" . 469)
  ("/home/gil/.zshrc" . 25)
- ("/home/gil/.emacs.d/README.md" . 1894)
  ("/home/gil/.emacs.d/elpa/org-20161003/org-loaddefs.el" . 88621)
  ("/home/gil/.emacs.d/elpa/helm-company-20160516.2258/helm-company-autoloads.el" . 463)
  ("/home/gil/.emacs.d/elpa/helm-c-yasnippet-20160823.611/helm-c-yasnippet-autoloads.el" . 708)
