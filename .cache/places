@@ -1,294 +1,32 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/gil/Documents/Go/src/chatinsper/web/model/chat.go" . 3007)
- ("/home/gil/.spacemacs" . 8068)
- ("/home/gil/Documents/Insper/2016.2/CoDesign/avaliaca.org" . 509)
- ("/home/gil/.emacs.d/.cache/recentf" . 9716)
- ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1861)
- ("/home/gil/Documents/Go/src/chatinsper/web/css/"
-  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/web/css/.."))
- ("/home/gil/Documents/Go/src/chatinsper/web/css/chat.css" . 5)
- ("/home/gil/Documents/Go/src/chatinsper/"
-  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/web"))
- ("/home/gil/Documents/Go/src/chatinsper/main.go" . 511)
- ("/home/gil/Documents/Go/src/chatinsper/web/controller/chat.js" . 520)
- ("/home/gil/Documents/Go/src/chatinsper/web/controller/"
-  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/web/controller/.."))
- ("/home/gil/Documents/Go/src/chatinsper/web/"
-  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/web/model"))
- ("/home/gil/Documents/Go/src/chatinsper/web/model/"
-  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/web/model/chat.go"))
- ("/home/gil/Documents/Go/src/chatinsper/web/view/"
-  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/web/view/.."))
- ("/home/gil/Documents/Go/src/chatinsper/web/view/index.html" . 1466)
- ("/home/gil/Documents/Bash/.zshrc" . 2800)
- ("/home/gil/Documents/Bash/mygentoo.zsh-theme" . 652)
- ("/home/gil/Documents/Go/src/chatinsper/README.md" . 835)
- ("/home/gil/Documents/Go/src/chatinsper/LICENSE.md" . 34939)
- ("/home/gil/Documents/Go/src/chatinsper/vendor/"
-  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/vendor/.."))
- ("/home/gil/Documents/Go/src/github.com/heroku/go-getting-started/"
-  (dired-filename . "/home/gil/Documents/Go/src/github.com/heroku/go-getting-started/.."))
- ("/home/gil/Documents/Go/src/github.com/heroku/"
-  (dired-filename . "/home/gil/Documents/Go/src/github.com/heroku/.."))
- ("/home/gil/Documents/Go/src/"
-  (dired-filename . "/home/gil/Documents/Go/src/github.com"))
- ("/home/gil/Documents/Go/src/github.com/"
-  (dired-filename . "/home/gil/Documents/Go/src/github.com/heroku-examples"))
- ("/home/gil/Documents/Go/src/github.com/heroku-examples/"
-  (dired-filename . "/home/gil/Documents/Go/src/github.com/heroku-examples/go-websocket-chat-demo"))
- ("/home/gil/Documents/Go/src/github.com/heroku-examples/go-websocket-chat-demo/"
-  (dired-filename . "/home/gil/Documents/Go/src/github.com/heroku-examples/go-websocket-chat-demo/main.go"))
- ("/home/gil/Documents/Go/src/github.com/heroku-examples/go-websocket-chat-demo/main.go" . 1421)
- ("/home/gil/.emacs.d/.spacemacs" . 2962)
- ("/home/gil/Documents/Go/Learning/src/"
-  (dired-filename . "/home/gil/Documents/Go/Learning/src/.."))
- ("/home/gil/Documents/Go/Learning/pkg/"
-  (dired-filename . "/home/gil/Documents/Go/Learning/pkg/.."))
- ("/home/gil/Documents/"
-  (dired-filename . "/home/gil/Documents/Go"))
- ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_1/main.go" . 127)
- ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_1/web/test.html" . 484)
- ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_1/web/"
-  (dired-filename . "/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_1/web/.."))
- ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/.git/"
-  (dired-filename . "/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/.git/.."))
- ("/home/gil/Documents/Go/Learning/"
-  (dired-filename . "/home/gil/Documents/Go/Learning/.."))
- ("/home/gil/Documents/Go/"
-  (dired-filename . "/home/gil/Documents/Go/src"))
- ("/home/gil/Documents/Go/src/github.com/jakecoffman/"
-  (dired-filename . "/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial"))
- ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_1/"
-  (dired-filename . "/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_1/.."))
- ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/"
-  (dired-filename . "/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_2"))
- ("/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_2/"
-  (dired-filename . "/home/gil/Documents/Go/src/github.com/jakecoffman/golang-webapp-tutorial/tutorial_2/main.go"))
- ("/home/gil/Documents/Go/Learning/polymorphism.go" . 702)
- ("/usr/lib/eclipse/eclipse.ini" . 315)
- ("/etc/xdg/termite/config" . 209)
- ("/home/gil/Documents/C/t.c" . 12)
- ("/home/gil/Documents/C/checksum.c" . 242)
- ("/home/gil/data1/Dockerfile" . 16)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/insper"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/insper/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/insper/recfacial"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/insper/recfacial/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/insper/recfacial/servlets"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/insper/recfacial/servlets/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/insper/recfacial/servlets/ProcessEmail.java"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/insper/recfacial/servlets/ProcessEmail.java" . 2375)
- ("/home/gil/Documents/Insper/2016.2/CoDesign/Guia de campo.txt" . 1197)
- ("/home/gil/data1/code/api/"
-  (dired-filename . "/home/gil/data1/code/api/.."))
- ("/home/gil/data1/"
-  (dired-filename . "/home/gil/data1/code"))
- ("/home/gil/data1/code/api/app.py" . 436)
- ("/home/gil/data1/code/openface/"
-  (dired-filename . "/home/gil/data1/code/openface/.."))
- ("/home/gil/data1/code/openface/classifier.py" . 1392)
- ("/home/gil/data1/code/scripts/"
-  (dired-filename . "/home/gil/data1/code/scripts/.."))
- ("/home/gil/data1/code/scripts/teste.sh" . 207)
- ("/home/gil/data1/code/"
-  (dired-filename . "/home/gil/data1/code/README.md"))
- ("/home/gil/data1/code/README.md" . 233)
+(("/home/gil/.emacs.d/.cache/recentf" . 10201)
+ ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1338)
+ ("/home/gil/.emacs.d/.spacemacs" . 2470)
+ ("/home/gil/Documents/Ruby/firstut/ruby/"
+  (dired-filename . "/home/gil/Documents/Ruby/firstut/ruby/first.rb"))
+ ("/home/gil/Documents/Ruby/firstut/ruby/first.rb" . 3984)
+ ("/home/gil/Documents/Ruby/firstut/ruby/second.rb" . 35)
+ ("/home/gil/Documents/Bash/.zshrc" . 4132)
+ ("/home/gil/Documents/Ruby/firstut/ruby/yourSum.out" . 13)
+ ("/home/gil/Documents/Ruby/firstut/"
+  (dired-filename . "/home/gil/Documents/Ruby/firstut/ruby"))
+ ("/home/gil/Documents/Go/src/chatinsper/README.md" . 753)
+ ("/home/gil/.bashrc" . 25)
  ("/home/gil/"
   (dired-filename . "/home/gil/Documents"))
- ("/home/gil/Documents/Bash/"
-  (dired-filename . "/home/gil/Documents/Bash/gitcommit.sh"))
- ("/home/gil/Documents/Insper/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2"))
- ("/home/gil/Documents/Insper/2016.2/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/insper/recfacial/utils/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/insper/recfacial/utils/Constants.java"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/insper/recfacial/utils/Constants.java" . 1749)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/classes/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/classes/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/classes/br/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/classes/br/edu"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/classes/br/edu/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/classes/br/edu/insper"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/classes/br/edu/insper/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/classes/br/edu/insper/recfacial"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/classes/br/edu/insper/recfacial/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/classes/br/edu/insper/recfacial/utils"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/classes/br/edu/insper/recfacial/utils/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/classes/br/edu/insper/recfacial/utils/Constants.class"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/build/.."))
- ("/home/gil/.hplip/"
-  (dired-filename . "/home/gil/.hplip/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/.settings/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/.settings/.."))
- ("/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/Final/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/Final/pedrocunial-artigo.tex"))
- ("/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/Final/pedrocunial-artigo.tex" . 29951)
- ("/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/Final"))
- ("/home/gil/Documents/Arduino/Memoria/"
-  (dired-filename . "/home/gil/Documents/Arduino/Memoria/memoria"))
- ("/home/gil/Documents/Arduino/Memoria/memoria.ino" . 1105)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/target/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/target/m2e-wtp"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/target/m2e-wtp/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/target/m2e-wtp/web-resources"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/target/m2e-wtp/web-resources/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/target/m2e-wtp/web-resources/META-INF"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/target/m2e-wtp/web-resources/META-INF/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/target/m2e-wtp/web-resources/META-INF/maven"))
- ("/home/gil/Documents/C/"
-  (dired-filename . "/home/gil/Documents/C/checksum.c"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/WebContent/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/WebContent/WEB-INF"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/src/mvc/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/src/mvc/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/src/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/src/mvc"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/src/br/edu/insper/recfacial/utils/Docker.java" . 1835)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ReconhecimentoFacial/.gitignore" . 76)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/WebContent/WEB-INF/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/WebContent/WEB-INF/views"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/WebContent/WEB-INF/views/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/WebContent/WEB-INF/views/lista.jsp"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/WebContent/WEB-INF/views/lista.jsp" . 896)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/WebContent/WEB-INF/views/info.jsp" . 712)
- ("/home/gil/Documents/Insper/2016.2/Eletromag/Relatorios/Projeto/Seguranca/planodeseguranca.org" . 1079)
- ("/home/gil/Documents/Insper/2016.2/Eletromag/Relatorios/Projeto/Seguranca/planodeseguranca.tex" . 10)
- ("/home/gil/Documents/Insper/2016.2/Eletromag/Relatorios/Projeto/Seguranca/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/Eletromag/Relatorios/Projeto/Seguranca/.."))
- ("/home/gil/Documents/Insper/2016.2/Eletromag/Relatorios/Projeto/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/Eletromag/Relatorios/Projeto/Verba"))
- ("/home/gil/Documents/Insper/2016.2/Eletromag/Relatorios/Projeto/Verba/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/Eletromag/Relatorios/Projeto/Verba/auto"))
- ("/home/gil/Documents/Insper/2016.2/Eletromag/Relatorios/Projeto/Verba/pedidodeverba.tex" . 2443)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/src/mvc/controller/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/src/mvc/controller/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/src/mvc/controller/TarefasController.java" . 1542)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/src/mvc/model/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/src/mvc/model/TarefaDAO.java"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Aula16/src/mvc/model/TarefaDAO.java" . 5160)
- ("/home/gil/Documents/Insper/2016.2/Eletromag/Relatorios/Motores/_region_.tex" . 492)
- ("/home/gil/Documents/Insper/2016.2/Eletromag/Relatorios/Motores/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/Eletromag/Relatorios/Motores/auto"))
- ("/home/gil/Documents/Insper/2016.2/Eletromag/Relatorios/Motores/pedrocunial.tex" . 843)
- ("/home/gil/PedroCampos_EP2/tortuga.py" . 3408)
- ("/home/gil/Documents/Bash/dpoggi-linebreak.zsh-theme" . 360)
- ("/home/gil/.oh-my-zsh/themes/mygentoo.zsh-theme" . 146)
- ("/home/gil/.oh-my-zsh/themes/dpoggi-linebreak.zsh-theme" . 128)
- ("/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/Referencias/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/Referencias/outros.txt"))
- ("/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/Referencias/outros.txt" . 38)
- ("/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/.gitignore" . 101)
- ("/home/gil/Documents/Insper/2016.2/FabioAyres/GnuRadio/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/FabioAyres/GnuRadio/top_block.py"))
- ("/home/gil/Documents/Insper/2016.2/FabioAyres/GnuRadio/top_block.py" . 2)
- ("/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos/README.md" . 109)
- ("/home/gil/Documents/Insper/2016.2/FabioAyres/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/FabioAyres/Artigos"))
- ("/home/gil/Documents/Bash/emacsopen.sh" . 186)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/objects/05/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/objects/05/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/objects/15/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/objects/15/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/objects/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/objects/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/index"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ScrumDeScrum/ata.org" . 572)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ScrumDeScrum/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ScrumDeScrum/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/app.py"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/app.py" . 6965)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/WebContent/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/WebContent/tabela.jsp"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/WebContent/tabela.jsp" . 1732)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/src/dbtest/Cria.java" . 5)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/src/dbtest/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/src/dbtest/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/src/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/src/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/build/classes/dbtest/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/build/classes/dbtest/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/build/classes/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/build/classes/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/build/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/build/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/RemoteSystemsTempFiles/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/RemoteSystemsTempFiles/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/logs/refs/heads/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/logs/refs/heads/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/logs/refs/remotes/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/logs/refs/remotes/origin"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/logs/refs/remotes/origin/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/logs/refs/remotes/origin/master"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/logs/refs/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/logs/refs/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/logs/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/logs/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/branches/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/.git/branches/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Servers/.project" . 83)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Servers/.settings/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/Servers/.settings/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Servers/Tomcat v8.0 Server at localhost-config/server.xml" . 5008)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Servers/Tomcat v8.0 Server at localhost-config/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/Servers/Tomcat v8.0 Server at localhost-config/tomcat-users.xml"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Servers/Tomcat v8.0 Server at localhost-config/tomcat-users.xml" . 646)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/Servers/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/Servers/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/tomcat-test/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/workbench.xmi" . 4720)
- ("/home/gil/Documents/Oficina IoT/"
-  (dired-filename . "/home/gil/Documents/Oficina IoT/test_arduino.py"))
- ("/home/gil/Documents/Oficina IoT/test_arduino/test_arduino.ino" . 359)
- ("/home/gil/Documents/Oficina IoT/test_arduino.py" . 23)
- ("/home/gil/Documents/Oficina IoT/test_tkinter.py" . 342)
- ("/home/gil/Documents/Python/.ipynb_checkpoints/" . 253)
- ("/home/gil/Documents/Python/.ipynb_checkpoints/Untitled-checkpoint.ipynb" . 392)
- ("/home/gil/Documents/Python/Untitled.ipynb" . 116)
- ("/home/gil/Documents/Python/"
-  (dired-filename . "/home/gil/Documents/Python/Untitled.ipynb"))
- ("/home/gil/Documents/Arduino/Sequencia/"
-  (dired-filename . "/home/gil/Documents/Arduino/Sequencia/Sequencia.ino"))
- ("/home/gil/Documents/Arduino/Sequencia/Sequencia.ino" . 1692)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/README.md" . 726)
- ("/home/gil/Documents/Go/Learning/shapepolymorphism.go" . 444)
+ ("/home/gil/Documents/"
+  (dired-filename . "/home/gil/Documents/Go"))
+ ("/home/gil/Documents/Bash/" . 807)
+ ("/home/gil/Documents/Go/"
+  (dired-filename . "/home/gil/Documents/Go/src"))
+ ("/home/gil/Documents/Go/src/"
+  (dired-filename . "/home/gil/Documents/Go/src/chatinsper"))
+ ("/home/gil/Documents/Go/src/chatinsper/"
+  (dired-filename . "/home/gil/Documents/Go/src/chatinsper/main.go"))
+ ("/home/gil/Documents/Go/src/chatinsper/main.go" . 469)
+ ("/home/gil/.zshrc" . 25)
  ("/home/gil/.emacs.d/README.md" . 1894)
  ("/home/gil/.emacs.d/elpa/org-20161003/org-loaddefs.el" . 88621)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/dbtest/src/dbtest/Atualiza.java" . 531)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/topic_view.html"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/topic.html" . 3280)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/topic_view.html" . 3758)
- ("/home/gil/Documents/Web/Oficina/"
-  (dired-filename . "/home/gil/Documents/Web/Oficina/cloud.html"))
- ("/home/gil/Documents/Web/Oficina/cloud.html" . 1678)
- ("/home/gil/Documents/Web/Oficina/mapa.html" . 2924)
- ("/home/gil/Documents/Web/Oficina/css/"
-  (dired-filename . "/home/gil/Documents/Web/Oficina/css/.."))
- ("/home/gil/Documents/Web/Oficina/css/custom.css" . 63)
- ("/home/gil/Documents/Web/Oficina/js/"
-  (dired-filename . "/home/gil/Documents/Web/Oficina/js/.."))
- ("/home/gil/Documents/Web/Oficina/fonts/"
-  (dired-filename . "/home/gil/Documents/Web/Oficina/fonts/glyphicons-halflings-regular.eot"))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/cons.html" . 34)
  ("/home/gil/.emacs.d/elpa/helm-company-20160516.2258/helm-company-autoloads.el" . 463)
  ("/home/gil/.emacs.d/elpa/helm-c-yasnippet-20160823.611/helm-c-yasnippet-autoloads.el" . 708)
  ("/home/gil/.emacs.d/elpa/company-statistics-0.2.2/company-statistics-autoloads.el" . 1426)
@@ -297,10 +35,5 @@
  ("/home/gil/.emacs.d/elpa/yasnippet-20160801.1142/yasnippet-autoloads.el" . 1642)
  ("/home/gil/.emacs.d/elpa/ac-ispell-20151031.1926/ac-ispell-autoloads.el" . 558)
  ("/home/gil/.emacs.d/elpa/auto-complete-20160827.649/auto-complete-autoloads.el" . 1733)
- ("/home/gil/Documents/Insper/2016.2/TecWeb/aula-eclipse/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/aula-eclipse/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/static/"
-  (dired-filename . "/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/static/.."))
- ("/home/gil/Documents/Insper/2016.2/TecWeb/ForumTest/templates/academic.html" . 1357)
  ("/home/gil/.emacs.d/init.el" . 273)
  ("/home/gil/.emacs.d/elpa/org-plus-contrib-20161003/org-loaddefs.el" . 95439))
