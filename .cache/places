@@ -1,19 +1,27 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/gil/Documents/Ruby/firstut/ruby/"
-  (dired-filename . "/home/gil/Documents/Ruby/firstut/ruby/first.rb"))
- ("/home/gil/Documents/Ruby/firstut/ruby/symbols.rb" . 1721)
- ("/home/gil/.emacs.d/.cache/recentf" . 10496)
- ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1495)
- ("/home/gil/Documents/Ruby/firstut/ruby/first.rb" . 5965)
- ("/home/gil/Documents/Ruby/firstut/ruby/intermidiate.rb" . 576)
- ("/home/gil/Documents/Ruby/firstut/ruby/smart.rb" . 77)
+(("/home/gil/Documents/Ruby/ruby_tutorials/readit/"
+  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app"))
+ ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/models/user.rb" . 36)
+ ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/models/concerns/"
+  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/models/concerns/.."))
+ ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/models/"
+  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/models/.."))
+ ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/controllers/"
+  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/controllers/.."))
+ ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/"
+  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/views"))
+ ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/views/"
+  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/views/welcome"))
+ ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/views/welcome/"
+  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/views/welcome/index.html.erb"))
+ ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/controllers/concerns/"
+  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/controllers/concerns/.."))
+ ("/home/gil/.emacs.d/.cache/recentf" . 11037)
+ ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 2853)
+ ("/home/gil/.spacemacs" . 7739)
  ("/home/gil/.emacs.d/README.md" . 15)
  ("/home/gil/.emacs.d/.spacemacs" . 2470)
- ("/home/gil/Documents/Ruby/firstut/ruby/second.rb" . 35)
  ("/home/gil/Documents/Bash/.zshrc" . 4132)
- ("/home/gil/Documents/Ruby/firstut/ruby/yourSum.out" . 13)
- ("/home/gil/Documents/Ruby/firstut/"
-  (dired-filename . "/home/gil/Documents/Ruby/firstut/ruby"))
  ("/home/gil/Documents/Go/src/chatinsper/README.md" . 753)
  ("/home/gil/.bashrc" . 25)
  ("/home/gil/"
