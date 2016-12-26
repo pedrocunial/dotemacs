@@ -1,13 +1,13 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/gil/.emacs.d/.cache/recentf" . 18439)
- ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1336)
- ("/etc/xdg/termite/config" . 207)
- ("/home/gil/.emacs.d/.spacemacs" . 7743)
- ("/home/gil/Documents/DogHero/muttley/"
+(("/home/gil/Documents/DogHero/muttley/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app"))
  ("/home/gil/Documents/DogHero/muttley/app/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app/app.js"))
- ("/home/gil/Documents/DogHero/muttley/app/app.js" . 376)
+ ("/home/gil/Documents/DogHero/muttley/app/app.js" . 1620)
+ ("/home/gil/.emacs.d/.cache/recentf" . 18439)
+ ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1546)
+ ("/home/gil/.emacs.d/.spacemacs" . 17072)
+ ("/etc/xdg/termite/config" . 207)
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app/host-intake/controllers"))
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/controllers/"
