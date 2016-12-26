@@ -68,11 +68,11 @@ values."
      ;;                 ispell-dictionary "pt_BR"
      ;;                 )
      lua
-     smart-tabs
+     ;; smart-tabs
      (c-c++ :variables
             c-c++-default-mode-for-headers 'c++-mode)
      ;;; use SPC T s to select a theme
-     themes-megapack ;; pretty self-explanatory https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bthemes/themes-megapack#install
+     ;; themes-megapack ;; pretty self-explanatory https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bthemes/themes-megapack#install
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -158,11 +158,11 @@ values."
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
-   dotspacemacs-default-font '("Inconsolata"
-                               :size 21
+   dotspacemacs-default-font '("Monospace"
+                               :size 18
                                :weight normal
                                :width normal
-                               :powerline-scale 2)
+                               :powerline-scale 1.2)
    ;; The leader key
    dotspacemacs-leader-key "SPC"
    ;; The leader key accessible in `emacs state' and `insert state'
@@ -315,6 +315,20 @@ values."
   ;;                                        "GOBIN"))
   )
 
+(defun my-setup-indent (n)
+  ;; java/c/c++
+  (setq c-basic-offset n)
+  ;; web development
+  (setq coffee-tab-width n) ; coffeescript
+  (setq javascript-indent-level n) ; javascript-mode
+  (setq js-indent-level n) ; js-mode
+  (setq js2-basic-offset n) ; js2-mode, in latest js2-mode, it's alias of js-indent-level
+  (setq web-mode-markup-indent-offset n) ; web-mode, html tag in html file
+  (setq web-mode-css-indent-offset n) ; web-mode, css in html file
+  (setq web-mode-code-indent-offset n) ; web-mode, js code in html file
+  (setq css-indent-offset n) ; css-mode
+  )
+
 (defun dotspacemacs/user-init ()
   "Initialization function for user code.
 It is called immediately after `dotspacemacs/init', before layer configuration
@@ -322,6 +336,8 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
+  (my-setup-indent 2) ;; doghero
+  (turn-on-fci-mode)
   )
 
 (defun dotspacemacs/user-config ()
