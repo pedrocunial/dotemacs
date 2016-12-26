@@ -2,25 +2,45 @@
 (("/home/gil/Documents/DogHero/muttley/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app"))
  ("/home/gil/Documents/DogHero/muttley/app/"
-  (dired-filename . "/home/gil/Documents/DogHero/muttley/app/app.js"))
- ("/home/gil/Documents/DogHero/muttley/app/app.js" . 1620)
- ("/home/gil/.emacs.d/.cache/recentf" . 18439)
- ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1546)
- ("/home/gil/.emacs.d/.spacemacs" . 17072)
- ("/etc/xdg/termite/config" . 207)
+  (dired-filename . "/home/gil/Documents/DogHero/muttley/app/host-intake"))
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app/host-intake/controllers"))
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/controllers/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app/host-intake/controllers/host_intake_controller.js"))
- ("/home/gil/Documents/DogHero/muttley/app/host-intake/controllers/host_intake_controller.js" . 25610)
+ ("/home/gil/Documents/DogHero/muttley/app/host-intake/controllers/host_intake_controller.js" . 5361)
+ ("/home/gil/.emacs.d/.cache/recentf" . 18756)
+ ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1826)
+ ("/home/gil/.emacs.d/.spacemacs" . 3486)
+ ("/home/gil/Documents/DogHero/muttley/deploy.js" . 1508)
+ ("/home/gil/Documents/DogHero/"
+  (dired-filename . "/home/gil/Documents/DogHero/astro"))
+ ("/home/gil/Documents/DogHero/astro/"
+  (dired-filename . "/home/gil/Documents/DogHero/astro/app"))
+ ("/home/gil/Documents/DogHero/astro/app/build/generated/"
+  (dired-filename . "/home/gil/Documents/DogHero/astro/app/build/generated/.."))
+ ("/home/gil/Documents/DogHero/astro/app/build/"
+  (dired-filename . "/home/gil/Documents/DogHero/astro/app/build/.."))
+ ("/home/gil/Documents/DogHero/astro/app/"
+  (dired-filename . "/home/gil/Documents/DogHero/astro/app/src"))
+ ("/home/gil/Documents/DogHero/astro/app/src/main/"
+  (dired-filename . "/home/gil/Documents/DogHero/astro/app/src/main/.."))
+ ("/home/gil/Documents/DogHero/astro/app/src/"
+  (dired-filename . "/home/gil/Documents/DogHero/astro/app/src/test"))
+ ("/home/gil/Documents/DogHero/astro/app/src/test/"
+  (dired-filename . "/home/gil/Documents/DogHero/astro/app/src/test/java"))
+ ("/home/gil/Documents/DogHero/astro/app/src/test/java/"
+  (dired-filename . "/home/gil/Documents/DogHero/astro/app/src/test/java/BankAccountValidatorTest.java"))
+ ("/home/gil/Documents/DogHero/astro/app/src/test/java/BankAccountValidatorTest.java" . 3357)
+ ("/home/gil/Documents/DogHero/muttley/app/host-intake/templates/"
+  (dired-filename . "/home/gil/Documents/DogHero/muttley/app/host-intake/templates/step_9.html"))
+ ("/home/gil/Documents/DogHero/muttley/app/host-intake/templates/step_9.html" . 671)
+ ("/etc/xdg/termite/config" . 214)
+ ("/home/gil/Documents/DogHero/muttley/app/app.js" . 1620)
  ("/home/gil/Documents/DogHero/muttley/app/common/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app/common/factories"))
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/directives/" . 622)
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/directives/dh_datepicker.js" . 2429)
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/templates/dh-datepicker.html" . 18)
- ("/home/gil/Documents/DogHero/muttley/app/host-intake/templates/"
-  (dired-filename . "/home/gil/Documents/DogHero/muttley/app/host-intake/templates/step_9.html"))
- ("/home/gil/Documents/DogHero/muttley/app/host-intake/templates/step_9.html" . 425)
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/directives/dh_quiz.js" . 188)
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/assets/stylesheets/layout/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app/host-intake/assets/stylesheets/layout/.."))
@@ -53,7 +73,6 @@
  ("/home/gil/Documents/DogHero/muttley/vendor/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/vendor/.."))
  ("/home/gil/Documents/DogHero/muttley/package.json" . 166)
- ("/home/gil/Documents/DogHero/muttley/deploy.js" . 1508)
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/directives/dh_button_select.js" . 581)
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/templates/dh_quiz_item.html" . 57)
  ("/home/gil/Documents/DogHero/muttley/app/models/"
@@ -61,8 +80,6 @@
  ("/home/gil/Documents/DogHero/muttley/app/vendor.js" . 8582)
  ("/home/gil/Documents/DogHero/muttley/app/templates/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app/templates/.."))
- ("/home/gil/Documents/DogHero/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby"))
  ("/home/gil/Documents/DogHero/scooby/config/"
   (dired-filename . "/home/gil/Documents/DogHero/scooby/config/.."))
  ("/home/gil/Documents/DogHero/scooby/spec/models/coupon_spec.rb" . 874)
