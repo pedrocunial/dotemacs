@@ -20,6 +20,8 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/gil/Documents/DogHero/scooby/spec/controllers/api/lists/" (22627 58540 227522 350000) "./" "../" "reservation_controller_spec.rb")
+
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/directives/" (22612 4019 714325 613000) "dh_keep_fixed.js" "./" "dh_button_select.js" "controll_steps_directive.js" "dh_datepicker.js" "header_directive.js" "../" "dh_warning_item.js" "dh_quiz.js")
 
  ("/home/gil/Documents/DogHero/scooby/app/models/" (22608 14440 726009 131000) "ability.rb" "event.rb" "photo.rb" "host_intake_track.rb" "invoice.rb" "platform_version_status.rb" "transaction.rb" "iugu_account.rb" "auth_token.rb" "coupon_user.rb" "user_data.rb" "./" ".keep" "iugu_account_withdraw.rb" "invoice_item.rb" "reservation_item.rb" "user.rb" "host_intake_draft.rb" "dialog.rb" "admin_note.rb" "mailboxer/" "concierge.rb" "payment_method.rb" "coupon_invoice.rb" "iugu_account_transaction.rb" "ranking.rb" "lead.rb" "coupon_reservation.rb" "unavailability.rb" "message_attachment.rb" "list_photo.rb" "search_index_schema.rb" "invited_user.rb" "mandrill_receipt.rb" "host_intake/" "list.rb" "address.rb" "rate.rb" "coupon.rb" "qb_master_user.rb" "../" "review.rb" "availability.rb" "transaction_relation.rb" "state_transition.rb" "reservation.rb" "account.rb" "concerns/" "settings.rb" "profile.rb" "device.rb" "pet.rb")

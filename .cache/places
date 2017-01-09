@@ -1,21 +1,207 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/gil/Documents/DogHero/muttley/"
+(("/home/gil/.emacs.d/.spacemacs" . 15785)
+ ("/home/gil/.emacs.d/.cache/recentf" . 28871)
+ ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1416)
+ ("/home/gil/Documents/DogHero/astro/circle.yml" . 1058)
+ ("/home/gil/Documents/DogHero/astro/"
+  (dired-filename . "/home/gil/Documents/DogHero/astro/circle.yml"))
+ ("/home/gil/Documents/Bash/.zshrc" . 4133)
+ ("/etc/xdg/termite/config" . 214)
+ ("/home/gil/Documents/DogHero/"
+  (dired-filename . "/home/gil/Documents/DogHero/astro_tests"))
+ ("/home/gil/Documents/DogHero/Termo_Compromisso_Estagio_out2016 (1).docm" . 1104)
+ ("/home/gil/Documents/DogHero/Termo_Compromisso_Estagio_out2016.docm" . 653)
+ ("/home/gil/Documents/DogHero/astro_tests/"
+  (dired-filename . "/home/gil/Documents/DogHero/astro_tests/tests.pdf"))
+ ("/home/gil/Documents/DogHero/astro_tests/tests.tex" . 5771)
+ ("/home/gil/Documents/DogHero/scooby/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app"))
+ ("/home/gil/Documents/DogHero/muttley/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app"))
+ ("/home/gil/Documents/DogHero/first_time.zip" . 190)
+ ("/home/gil/Documents/DogHero/first_time/"
+  (dired-filename . "/home/gil/Documents/DogHero/first_time/E-mail primeira hospedagem.html"))
+ ("/home/gil/Documents/DogHero/dumps/"
+  (dired-filename . "/home/gil/Documents/DogHero/dumps/Dump20161024"))
+ ("/home/gil/Documents/DogHero/combodate-1.0.7.zip" . 176)
+ ("/home/gil/Documents/DogHero/scooby/app/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers"))
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/api"))
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/api/lists"))
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/lists/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/api/lists/reservations_controller.rb"))
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/lists/reservations_controller.rb" . 1324)
+ ("/usr/lib/ruby/gems/2.3.0/gems/mandrill_mailer-1.0.3/lib/mandrill_mailer/core_mailer.rb" . 8185)
+ ("/home/gil/Documents/DogHero/scooby/config/environments/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/config/environments/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/mailers/base_mailer.rb" . 648)
+ ("/home/gil/Documents/DogHero/scooby/app/mailers/account_mailer.rb" . 996)
+ ("/home/gil/Documents/DogHero/scooby/app/mailers/concierge_mailer.rb" . 1320)
+ ("/home/gil/Documents/DogHero/scooby/app/mailers/costumer_service_mailer.rb" . 190)
+ ("/home/gil/Documents/DogHero/scooby/config/initializers/mail.rb" . 408)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/reservations_controller.rb" . 449)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/lists/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/lists/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/lists/reservations_controller.rb" . 427)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/reservations/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/api/reservations/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/admin/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/admin/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/.."))
+ ("/home/gil/Documents/DogHero/scooby/spec/factories/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/factories/.."))
+ ("/home/gil/Documents/DogHero/scooby/config/initializers/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/config/initializers/.."))
+ ("/home/gil/Documents/DogHero/scooby/config/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/config/.."))
+ ("/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2/admin/coupons_controller_spec.rb" . 282)
+ ("/home/gil/Documents/DogHero/scooby/spec/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/models"))
+ ("/home/gil/Documents/DogHero/scooby/spec/models/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/models/reservation_spec.rb"))
+ ("/home/gil/Documents/DogHero/scooby/spec/controllers/api/lists/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/controllers/api/lists/.."))
+ ("/home/gil/Documents/DogHero/scooby/spec/models/reservation_spec.rb" . 4928)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/admin/reservations_controller.rb" . 75)
+ ("/home/gil/Documents/DogHero/scooby/config/routes.rb" . 6593)
+ ("/home/gil/Documents/DogHero/scooby/spec/controllers/api/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/controllers/api/.."))
+ ("/home/gil/Documents/DogHero/scooby/spec/controllers/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2"))
+ ("/home/gil/Documents/DogHero/scooby/spec/controllers/lists_controller_spec.rb" . 311)
+ ("/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2/admin"))
+ ("/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2/admin/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2/admin/reservations_controller_spec.rb"))
+ ("/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2/admin/reservations_controller_spec.rb" . 2635)
+ ("/home/gil/Documents/DogHero/scooby/spec/controllers/api/lists/reservation_controller_spec.rb" . 842)
+ ("/home/gil/Documents/DogHero/scooby/app/mailers/host_mailer.rb" . 1439)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/admin_controller.rb" . 250)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/users/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/users/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/users/passwords_controller.rb" . 201)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/users/facebook_session_controller.rb" . 64)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/users_controller.rb" . 150)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/templates_controller.rb" . 211)
+ ("/home/gil/Documents/DogHero/scooby/app/mailers/reservation_mailer.rb" . 2168)
+ ("/usr/lib/ruby/gems/2.3.0/gems/i18n-0.7.0/lib/i18n/interpolate/ruby.rb" . 247)
+ ("/home/gil/Documents/DogHero/scooby/app/assets/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/assets/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/services/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/services/reservation"))
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/admin/coupons_controller.rb" . 887)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/admin/users_controller.rb" . 1596)
+ ("/home/gil/Documents/DogHero/scooby/app/models/mailboxer/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/models/mailboxer/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/models/user.rb" . 16)
+ ("/home/gil/Documents/DogHero/scooby/app/models/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/models/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/models/list.rb" . 18512)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/base_controller.rb" . 169)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/recommendations_controller.rb" . 1379)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/photos_controller.rb" . 1046)
+ ("/home/gil/Documents/DogHero/scooby/config/application.rb" . 1226)
+ ("/home/gil/Documents/DogHero/scooby/config/environment.rb" . 31)
+ ("/home/gil/Documents/DogHero/scooby/app/views/infos/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/infos/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/hosts_controller.rb" . 1715)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/admin/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/admin/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/admin/leads_controller.rb" . 1230)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/dialogs_controller.rb" . 200)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/hosts/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/api/hosts/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/hosts/shares_controller.rb" . 165)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/hosts_controller.rb" . 50)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/messages_controller.rb" . 278)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/users/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/api/users/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/users/invites_controller.rb" . 370)
+ ("/home/gil/Documents/DogHero/scooby/app/services/member_get_member_service.rb" . 3039)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/users/messages_controller.rb" . 81)
+ ("/home/gil/Documents/DogHero/scooby/app/services/conversation_service.rb" . 1538)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/users/shares_controller.rb" . 117)
+ ("/home/gil/Documents/DogHero/scooby/app/mailers/mailboxer_notification_mailer.rb" . 697)
+ ("/home/gil/Documents/DogHero/scooby/app/mailers/mailboxer_message_mailer.rb" . 3152)
+ ("/home/gil/Documents/DogHero/scooby/app/controllers/api/sessions_controller.rb" . 2064)
+ ("/home/gil/.emacs.d/"
+  (dired-filename . "/home/gil/.emacs.d/ac-comphist.dat"))
+ ("/home/gil/Documents/DogHero/scooby/app/models/host_intake/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/models/host_intake/.."))
+ ("/home/gil/Documents/DogHero/scooby/spec/models/coupon_spec.rb" . 2790)
+ ("/home/gil/Documents/DogHero/scooby/spec/support/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/support/.."))
+ ("/home/gil/Documents/DogHero/scooby/spec/workers/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/workers/.."))
+ ("/home/gil/Documents/DogHero/scooby/spec/workers/communication_rule/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/workers/communication_rule/without_answer_worker_spec.rb"))
+ ("/home/gil/Documents/DogHero/scooby/spec/workers/indexing/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/workers/indexing/document_index_worker_spec.rb"))
+ ("/home/gil/Documents/DogHero/scooby/spec/factories/users.rb" . 83)
+ ("/home/gil/Documents/DogHero/scooby/spec/factories/reservations.rb" . 236)
+ ("/home/gil/Documents/DogHero/scooby/spec/factories/list.rb" . 853)
+ ("/home/gil/Documents/DogHero/scooby/spec/models/account_spec.rb" . 4350)
+ ("/home/gil/Documents/DogHero/scooby/spec/routing/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/routing/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/models/mailboxer/notification_observer.rb" . 308)
+ ("/home/gil/Documents/DogHero/scooby/app/models/account.rb" . 4608)
+ ("/home/gil/Documents/DogHero/scooby/app/workers/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/workers/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/workers/mailer_worker.rb" . 20)
+ ("/home/gil/Documents/DogHero/scooby/app/workers/reservation_mailer_worker.rb" . 338)
+ ("/home/gil/Documents/DogHero/scooby/app/workers/conversation_interaction_cache_worker.rb" . 1104)
+ ("/home/gil/Documents/DogHero/scooby/app/utils/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/utils/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/message_mailer/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/message_mailer/new_message_email.html.erb"))
+ ("/home/gil/Documents/DogHero/scooby/app/views/devise_mail/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/devise_mail/confirmation_instructions.html.erb"))
+ ("/home/gil/Documents/DogHero/scooby/app/views/devise/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/devise/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/devise/confirmations/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/devise/confirmations/new.html.erb"))
+ ("/home/gil/Documents/DogHero/scooby/app/views/hosts/statuses/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/hosts/statuses/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/hosts/services/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/hosts/services/edit.html.haml"))
+ ("/home/gil/Documents/DogHero/scooby/app/views/hosts/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/hosts/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/hosts/profiles/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/hosts/profiles/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/reviews/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/reviews/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/users/choose/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/users/choose/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/users/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/users/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/notification_mailer/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/notification_mailer/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/costumer_service_mailer/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/costumer_service_mailer/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/concierge_mailer/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/concierge_mailer/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/concierge_mailer/new_concierge.html" . 4338)
+ ("/home/gil/Documents/DogHero/scooby/app/views/concierge/headers/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/concierge/headers/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/concierge/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/concierge/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/reservation_mailer/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/reservation_mailer/.."))
+ ("/home/gil/Documents/DogHero/scooby/app/views/payments/"
+  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/payments/.."))
+ ("/home/gil/Documents/DogHero/muttley/app/host-intake/controllers/host_intake_controller.js" . 20778)
  ("/home/gil/Documents/DogHero/muttley/app/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app/host-intake"))
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app/host-intake/controllers"))
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/controllers/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app/host-intake/controllers/host_intake_controller.js"))
- ("/home/gil/Documents/DogHero/muttley/app/host-intake/controllers/host_intake_controller.js" . 5361)
- ("/home/gil/.emacs.d/.cache/recentf" . 18756)
- ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1826)
- ("/home/gil/.emacs.d/.spacemacs" . 3486)
  ("/home/gil/Documents/DogHero/muttley/deploy.js" . 1508)
- ("/home/gil/Documents/DogHero/"
-  (dired-filename . "/home/gil/Documents/DogHero/astro"))
- ("/home/gil/Documents/DogHero/astro/"
-  (dired-filename . "/home/gil/Documents/DogHero/astro/app"))
  ("/home/gil/Documents/DogHero/astro/app/build/generated/"
   (dired-filename . "/home/gil/Documents/DogHero/astro/app/build/generated/.."))
  ("/home/gil/Documents/DogHero/astro/app/build/"
@@ -34,7 +220,6 @@
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/templates/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app/host-intake/templates/step_9.html"))
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/templates/step_9.html" . 671)
- ("/etc/xdg/termite/config" . 214)
  ("/home/gil/Documents/DogHero/muttley/app/app.js" . 1620)
  ("/home/gil/Documents/DogHero/muttley/app/common/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app/common/factories"))
@@ -80,46 +265,13 @@
  ("/home/gil/Documents/DogHero/muttley/app/vendor.js" . 8582)
  ("/home/gil/Documents/DogHero/muttley/app/templates/"
   (dired-filename . "/home/gil/Documents/DogHero/muttley/app/templates/.."))
- ("/home/gil/Documents/DogHero/scooby/config/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/config/.."))
- ("/home/gil/Documents/DogHero/scooby/spec/models/coupon_spec.rb" . 874)
- ("/home/gil/Documents/DogHero/scooby/spec/models/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/models/.."))
- ("/home/gil/Documents/DogHero/scooby/app/mailers/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/mailers/.."))
  ("/home/gil/Documents/DogHero/scooby/app/presenters/"
   (dired-filename . "/home/gil/Documents/DogHero/scooby/app/presenters/.."))
- ("/home/gil/Documents/DogHero/scooby/app/models/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/models/.."))
  ("/home/gil/Documents/DogHero/scooby/app/models/coupon.rb" . 7870)
- ("/home/gil/Documents/DogHero/scooby/app/controllers/admin/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/admin/.."))
- ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/admin/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/admin/.."))
- ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/admin/coupons_controller.rb" . 887)
- ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/.."))
- ("/home/gil/Documents/DogHero/scooby/app/controllers/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/controllers/.."))
- ("/home/gil/Documents/DogHero/scooby/app/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/.."))
- ("/home/gil/Documents/DogHero/scooby/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec"))
- ("/home/gil/Documents/DogHero/scooby/spec/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/controllers"))
- ("/home/gil/Documents/DogHero/scooby/spec/controllers/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2"))
- ("/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2/admin"))
- ("/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2/admin/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2/admin/coupons_controller_spec.rb"))
- ("/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2/admin/coupons_controller_spec.rb" . 282)
  ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/pets_controller.rb" . 97)
  ("/home/gil/Documents/DogHero/scooby/Dockerfile" . 17)
  ("/home/gil/Documents/DogHero/scooby/deploy/"
   (dired-filename . "/home/gil/Documents/DogHero/scooby/deploy/.."))
- ("/home/gil/Documents/DogHero/scooby/app/assets/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/assets/.."))
  ("/home/gil/Documents/DogHero/scooby/config/unicorn.rb" . 1942)
  ("/home/gil/Documents/DogHero/scooby/config/database.yml" . 303)
  ("/home/gil/Documents/DogHero/scooby/docker-compose.yml" . 508)
@@ -131,30 +283,17 @@
   (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/routing/apiv2/lists/.."))
  ("/home/gil/Documents/DogHero/scooby/spec/routing/apiv2/"
   (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/routing/apiv2/.."))
- ("/home/gil/Documents/DogHero/scooby/spec/routing/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/routing/.."))
- ("/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2/admin/reservations_controller_spec.rb" . 3573)
- ("/home/gil/Documents/DogHero/scooby/config/routes.rb" . 2118)
  ("/home/gil/Documents/DogHero/scooby/spec/controllers/apiv2/admin/pets_controller_spec.rb" . 3498)
  ("/home/gil/Documents/DogHero/scooby/README.rdoc" . 3353)
  ("/home/gil/Documents/DogHero/scooby/circle.yml" . 1841)
  ("/home/gil/Documents/DogHero/scooby/spec/models/host_intake_draft_spec.rb" . 2750)
  ("/home/gil/Documents/DogHero/scooby/spec/models/transaction_spec.rb" . 1558)
  ("/home/gil/Documents/DogHero/scooby/spec/models/pet_spec.rb" . 807)
- ("/home/gil/Documents/DogHero/scooby/config/environment.rb" . 121)
  ("/home/gil/Documents/DogHero/scooby/app/models/event.rb" . 637)
  ("/home/gil/Documents/DogHero/scooby/config/database.yml.example" . 397)
- ("/home/gil/Documents/DogHero/scooby/app/models/user.rb" . 1371)
- ("/home/gil/Documents/DogHero/scooby/spec/factories/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/spec/factories/coupons.rb"))
- ("/home/gil/Documents/DogHero/scooby/spec/factories/users.rb" . 83)
  ("/home/gil/Documents/DogHero/scooby/spec/factories/coupons.rb" . 208)
- ("/home/gil/Documents/DogHero/scooby/app/services/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/services/analytics_tracker_service.rb"))
  ("/home/gil/Documents/DogHero/scooby/app/helpers/api/reservations/"
   (dired-filename . "/home/gil/Documents/DogHero/scooby/app/helpers/api/reservations/.."))
- ("/home/gil/Documents/DogHero/scooby/app/workers/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/workers/availability_create_worker.rb"))
  ("/home/gil/Documents/DogHero/scooby/app/helpers/api/"
   (dired-filename . "/home/gil/Documents/DogHero/scooby/app/helpers/api/.."))
  ("/home/gil/Documents/DogHero/scooby/app/helpers/"
@@ -168,15 +307,11 @@
  ("/home/gil/Documents/DogHero/scooby/app/views/ping/"
   (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/ping/show.html.erb"))
  ("/home/gil/Documents/DogHero/scooby/app/views/ping/show.html.erb" . 1207)
- ("/home/gil/Documents/DogHero/scooby/app/utils/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/utils/.."))
  ("/home/gil/Documents/DogHero/scooby/app/assets/stylesheets/"
   (dired-filename . "/home/gil/Documents/DogHero/scooby/app/assets/stylesheets/fonts.css.scss"))
  ("/home/gil/Documents/DogHero/scooby/app/views/kaminari/"
   (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/kaminari/_gap.html.haml"))
  ("/home/gil/Documents/DogHero/scooby/app/views/kaminari/_first_page.html.haml" . 101)
- ("/home/gil/Documents/DogHero/scooby/app/views/"
-  (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/iframes"))
  ("/home/gil/Documents/DogHero/scooby/app/views/dashboard/"
   (dired-filename . "/home/gil/Documents/DogHero/scooby/app/views/dashboard/lists"))
  ("/home/gil/Documents/DogHero/scooby/app/views/dashboard/lists/"
@@ -212,9 +347,7 @@
  ("/home/gil/Documents/DogHero/scooby/node_modules/imagemagick/"
   (dired-filename . "/home/gil/Documents/DogHero/scooby/node_modules/imagemagick/imagemagick.js"))
  ("/home/gil/Documents/DogHero/scooby/app/controllers/reviews_controller.rb" . 1241)
- ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/base_controller.rb" . 169)
  ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/conversations_controller.rb" . 223)
- ("/home/gil/Documents/DogHero/scooby/app/controllers/apiv2/photos_controller.rb" . 1433)
  ("/home/gil/Documents/"
   (dired-filename . "/home/gil/Documents/DogHero"))
  ("/home/gil/Documents/Ruby/ruby_tutorials/readit/"
@@ -235,7 +368,6 @@
  ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/controllers/concerns/"
   (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/controllers/concerns/.."))
  ("/home/gil/.emacs.d/README.md" . 15)
- ("/home/gil/Documents/Bash/.zshrc" . 4132)
  ("/home/gil/Documents/Go/src/chatinsper/README.md" . 753)
  ("/home/gil/.bashrc" . 25)
  ("/home/gil/"
