@@ -20,6 +20,8 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/gil/Documents/Insper/2017.1/Desafios/entrega0/" (22701 54619 764594 566000) "ex" "./" "ex.c" "../")
+
  ("/home/gil/Documents/DogHero/scooby/spec/controllers/api/lists/" (22627 58540 227522 350000) "./" "../" "reservation_controller_spec.rb")
 
  ("/home/gil/Documents/DogHero/muttley/app/host-intake/directives/" (22612 4019 714325 613000) "dh_keep_fixed.js" "./" "dh_button_select.js" "controll_steps_directive.js" "dh_datepicker.js" "header_directive.js" "../" "dh_warning_item.js" "dh_quiz.js")
