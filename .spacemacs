@@ -333,8 +333,9 @@ executes.
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
   ;; (my-setup-indent 2) ;; doghero
-  (my-setup-indent 4)
+  (my-setup-indent 2)
   ;; (turn-on-fci-mode)
+  (add-to-list 'auto-mode-alist '("\\.cl$" . c-mode))
   )
 
 (defun dotspacemacs/user-config ()

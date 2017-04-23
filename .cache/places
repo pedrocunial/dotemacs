@@ -1,139 +1,24 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/gil/Documents/Insper/2017.1/Embarcados/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/Embarcados/.."))
- ("/home/gil/Documents/Insper/2017.1/Desafios/aula07/pitch.txt" . 306)
- ("/home/gil/Documents/Insper/2017.1/SisHardSoft/aula05/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/SisHardSoft/aula05/.."))
- ("/home/gil/Documents/Insper/2017.1/SisHardSoft/aula07/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/SisHardSoft/aula07/.."))
- ("/home/gil/Documents/Insper/2017.1/SisHardSoft/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/SisHardSoft/.."))
- ("/home/gil/Documents/Insper/2017.1/SisHardSoft/perf.c" . 1037)
+(("/home/gil/.emacs.d/.spacemacs" . 16929)
+ ("/home/gil/.emacs.d/.cache/recentf" . 37860)
+ ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 1416)
  ("/home/gil/Documents/Insper/2017.1/"
   (dired-filename . "/home/gil/Documents/Insper/2017.1/Desafios"))
- ("/home/gil/Documents/Insper/2017.1/Desafios/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/Desafios/aula07"))
- ("/home/gil/Documents/Insper/2017.1/Desafios/aula07/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/Desafios/aula07/.."))
- ("/home/gil/.emacs.d/.cache/recentf" . 37860)
- ("/home/gil/.emacs.d/.cache/layouts/persp-auto-save" . 2233)
- ("/home/gil/Documents/Insper/2017.1/SisHardSoft/lab0/datalab-handout/bits.c" . 8240)
- ("/home/gil/.emacs.d/.spacemacs" . 14400)
- ("/home/gil/Documents/Insper/2017.1/SisHardSoft/lab0/datalab-handout/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/SisHardSoft/lab0/datalab-handout/bits.c"))
- ("/home/gil/Documents/Insper/2017.1/TermoSol/elementos_finitos0/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/TermoSol/elementos_finitos0/foo.py"))
- ("/home/gil/Documents/Insper/2017.1/TermoSol/elementos_finitos0/foo.py" . 222)
- ("/home/gil/Documents/Insper/2017.1/SisHardSoft/lab0/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/SisHardSoft/lab0/.."))
- ("/home/gil/Documents/Insper/2017.1/SisHardSoft/aula07/test.c" . 21)
- ("/home/gil/Documents/Insper/2017.1/TermoSol/quiz0/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/TermoSol/quiz0/.."))
- ("/home/gil/Documents/Insper/2017.1/TermoSol/quiz0/relatorio.org" . 355)
- ("/home/gil/Documents/Insper/2017.1/TermoSol/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/TermoSol/.."))
- ("/home/gil/Documents/Insper/2017.1/Embarcados/atividade3e4/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/Embarcados/atividade3e4/atividade.tex"))
- ("/home/gil/Documents/Insper/2017.1/Embarcados/atividade3e4/atividade.tex" . 2543)
- ("/home/gil/Documents/Insper/2017.1/Embarcados/atividade06/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/Embarcados/atividade06/atividade.org"))
- ("/home/gil/Documents/Insper/2017.1/Embarcados/atividade05/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/Embarcados/atividade05/pesquisa.tex"))
- ("/home/gil/Documents/Insper/2017.1/Embarcados/atividade05/pesquisa.tex" . 1052)
- ("/home/gil/Documents/Insper/2017.1/TermoSol/quiz0/relatorio.tex" . 2978)
- ("/home/gil/Documents/Insper/2017.1/Embarcados/atividade06/atividade.org" . 4048)
- ("/home/gil/Documents/Insper/2017.1/Embarcados/atividade06/atividade.tex" . 5135)
- ("/home/gil/Documents/Insper/2017.1/Desafios/recursao/fac.c" . 506)
- ("/home/gil/Documents/Insper/2017.1/Desafios/recursao/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/Desafios/recursao/fac"))
- ("/home/gil/Documents/Insper/2017.1/Desafios/recursao/sort.c" . 40)
- ("/home/gil/Documents/Insper/2017.1/Desafios/entrega0/ex.c" . 394)
- ("/home/gil/Documents/Insper/2017.1/dani.c" . 231)
- ("/home/gil/Documents/Insper/2017.1/SisHardSoft/aula05/neg.c" . 353)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/prova/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/mutiraoC/prova/.."))
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/mutirao-repo/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/mutiraoC/mutirao-repo/Aula 1"))
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/mutirao-repo/Aula 1/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/mutiraoC/mutirao-repo/Aula 1/hello.c"))
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/exercicios.c" . 898)
- ("/home/gil/Documents/Insper/2017.1/Embarcados/projeto-uC/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/Embarcados/projeto-uC/.."))
- ("/home/gil/Documents/Insper/2017.1/Embarcados/pesquisa-uC/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/Embarcados/pesquisa-uC/.."))
- ("/home/gil/Documents/Insper/2017.1/Embarcados/mutiraoC/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/Embarcados/mutiraoC/tabela.c"))
- ("/home/gil/Documents/Insper/2017.1/SisHardSoft/bitshift/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/SisHardSoft/bitshift/bs.c"))
- ("/home/gil/Documents/Insper/2017.1/SisHardSoft/bitshift/bs.c" . 274)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/exercicios/fizzbuzz.c" . 1608)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/exercicios/hora.c" . 623)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/exercicios/pendulo.c" . 210)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/exercicios/portugues.c" . 277)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/exercicios/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/mutiraoC/exercicios/random.c"))
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/"
-  (dired-filename . "/home/gil/Documents/Insper/2017.1/mutiraoC/exercicios"))
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/exercicios/random.c" . 213)
- ("/home/gil/Documents/Insper/2017.1/Embarcados/atividade05/pesquisa.org" . 310)
- ("/home/gil/Documents/Insper/2017.1/Embarcados/projeto-uC/cafeteira.tex" . 926)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/prova/PedroExercicio2.c" . 423)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/prova/PedroExercicio1.c" . 118)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/prova/PedroExercicio0.c" . 467)
- ("/home/gil/Documents/Insper/2017.1/Embarcados/mutiraoC/tabela.c" . 1257)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/mutirao-repo/Aula 1/scanf.c" . 326)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/mutirao-repo/Aula 1/tamanhoTipos.c" . 1213)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/mutirao-repo/Aula 1/printf.c" . 122)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/mutirao-repo/Aula 1/hello.c" . 34)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/prova/PedroExercicio3.c" . 175)
- ("/home/gil/Documents/Insper/2017.1/Embarcados/projeto-uC/relatorio.org" . 1061)
  ("/home/gil/Documents/Bash/.zshrc" . 4286)
  ("/home/gil/.emacs.d/.cache/ido.last" . 2539)
- ("/home/gil/Documents/Insper/2017.1/Embarcados/atividade3e4/atividade.org" . 758)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/cli_args.c" . 113)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/funcoes.c" . 371)
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/matrix.txt" . 17)
  ("/home/gil/Documents/"
   (dired-filename . "/home/gil/Documents/Insper"))
  ("/home/gil/Documents/Insper/"
   (dired-filename . "/home/gil/Documents/Insper/2017.1"))
- ("/home/gil/Documents/Insper/2017.1/mutiraoC/mutirao-repo/Aula 1/mmc.c" . 255)
- ("/home/gil/*message*-20170207-135016" . 5)
- ("/home/gil/Documents/Insper/2017.1/Embarcados/pesquisa-uC/pesquisa.org" . 87)
- ("/home/gil/Documents/Insper/2017.1/Embarcados/pesquisa-uC/pesquisa.tex" . 2990)
- ("/home/gil/Documents/Insper/2017.1/SisHardSoft/tamanhos.c" . 634)
  ("/etc/xdg/termite/config" . 196)
  ("/home/gil/Documents/DogHero/"
   (dired-filename . "/home/gil/Documents/DogHero/scooby"))
- ("/usr/lib/ruby/gems/2.3.0/gems/activerecord-4.1.16/lib/active_record/associations/builder/association.rb" . 9)
- ("/usr/lib/ruby/gems/2.3.0/gems/activerecord-4.1.16/lib/active_record/querying.rb" . 474)
  ("/home/gil/Documents/Bash/"
   (dired-filename . "/home/gil/Documents/Bash/.."))
  ("/home/gil/Documents/Bash/emacscommit.sh" . 222)
  ("/home/gil/Documents/Bash/gitcommit.sh" . 234)
- ("/home/gil/Documents/DogHero/Termo_Compromisso_Estagio_out2016 (1).docm" . 1104)
- ("/home/gil/Documents/DogHero/Termo_Compromisso_Estagio_out2016.docm" . 653)
- ("/usr/lib/ruby/gems/2.3.0/gems/mandrill_mailer-1.0.3/lib/mandrill_mailer/core_mailer.rb" . 8185)
- ("/usr/lib/ruby/gems/2.3.0/gems/i18n-0.7.0/lib/i18n/interpolate/ruby.rb" . 247)
  ("/home/gil/.emacs.d/"
   (dired-filename . "/home/gil/.emacs.d/ac-comphist.dat"))
- ("/home/gil/Documents/Ruby/ruby_tutorials/readit/"
-  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app"))
- ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/models/user.rb" . 36)
- ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/models/concerns/"
-  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/models/concerns/.."))
- ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/models/"
-  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/models/.."))
- ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/controllers/"
-  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/controllers/.."))
- ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/"
-  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/views"))
- ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/views/"
-  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/views/welcome"))
- ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/views/welcome/"
-  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/views/welcome/index.html.erb"))
- ("/home/gil/Documents/Ruby/ruby_tutorials/readit/app/controllers/concerns/"
-  (dired-filename . "/home/gil/Documents/Ruby/ruby_tutorials/readit/app/controllers/concerns/.."))
  ("/home/gil/.emacs.d/README.md" . 15)
  ("/home/gil/Documents/Go/src/chatinsper/README.md" . 753)
  ("/home/gil/.bashrc" . 25)
