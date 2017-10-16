@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "thrift" "thrift.el" (22515 61763 582266 795000))
+;;;### (autoloads nil "thrift" "thrift.el" (22783 55480 523795 312000))
 ;;; Generated autoloads from thrift.el
 
 (add-to-list 'auto-mode-alist '("\\.thrift\\'" . thrift-mode))

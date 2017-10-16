@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "arduino-mode" "arduino-mode.el" (22515 61753
-;;;;;;  202192 540000))
+;;;### (autoloads nil "arduino-mode" "arduino-mode.el" (22783 55212
+;;;;;;  180745 706000))
 ;;; Generated autoloads from arduino-mode.el
 
 (add-to-list 'auto-mode-alist '("\\.pde\\'" . arduino-mode))

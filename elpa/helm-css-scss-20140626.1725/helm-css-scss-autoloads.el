@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "helm-css-scss" "helm-css-scss.el" (22515 39523
-;;;;;;  768755 139000))
+;;;### (autoloads nil "helm-css-scss" "helm-css-scss.el" (22783 55375
+;;;;;;  190456 714000))
 ;;; Generated autoloads from helm-css-scss.el
 
 (autoload 'helm-css-scss-insert-close-comment "helm-css-scss" "\

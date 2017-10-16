@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "gnuplot" "gnuplot.el" (22515 61143 771166
-;;;;;;  161000))
+;;;### (autoloads nil "gnuplot" "gnuplot.el" (22783 55370 854404
+;;;;;;  874000))
 ;;; Generated autoloads from gnuplot.el
 
 (autoload 'gnuplot-mode "gnuplot" "\
@@ -84,7 +84,7 @@ Run an inferior Gnuplot process.
 ;;;***
 
 ;;;### (autoloads nil nil ("gnuplot-context.el" "gnuplot-gui.el"
-;;;;;;  "gnuplot-pkg.el") (22515 61143 727832 517000))
+;;;;;;  "gnuplot-pkg.el") (22783 55370 754403 679000))
 
 ;;;***
 

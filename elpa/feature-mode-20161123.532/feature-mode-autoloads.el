@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "feature-mode" "feature-mode.el" (22656 60855
-;;;;;;  915858 759000))
+;;;### (autoloads nil "feature-mode" "feature-mode.el" (22783 55368
+;;;;;;  202373 183000))
 ;;; Generated autoloads from feature-mode.el
 
 (autoload 'feature-mode "feature-mode" "\
@@ -16,8 +16,8 @@ Major mode for editing plain text stories
 
 ;;;***
 
-;;;### (autoloads nil nil ("feature-mode-pkg.el") (22656 60856 292527
-;;;;;;  961000))
+;;;### (autoloads nil nil ("feature-mode-pkg.el") (22783 55368 338374
+;;;;;;  809000))
 
 ;;;***
 

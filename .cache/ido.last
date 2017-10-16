@@ -20,6 +20,10 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/gil/Documents/Insper/2017.2/MegaDados/BiscuitLayer/biscuit/model/" (22954 62329 857136 509000) "../" "__pycache__/" "user.py" "./")
+
+ ("/home/gil/Documents/Insper/2017.1/private/desafios/desafio2/ex1/" (22786 17214 150479 979000) "parser.cxx" "parser.hxx" "../" "node.hxx" "input.in" "exercicio" "./")
+
  ("/home/gil/Documents/Insper/2017.1/Desafios/entrega0/" (22701 54619 764594 566000) "ex" "./" "ex.c" "../")
 
  ("/home/gil/Documents/DogHero/scooby/spec/controllers/api/lists/" (22627 58540 227522 350000) "./" "../" "reservation_controller_spec.rb")

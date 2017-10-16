@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "vmd-mode" "vmd-mode.el" (22672 48154 78898
-;;;;;;  12000))
+;;;### (autoloads nil "vmd-mode" "vmd-mode.el" (22783 55481 727811
+;;;;;;  418000))
 ;;; Generated autoloads from vmd-mode.el
 
 (autoload 'vmd-mode "vmd-mode" "\

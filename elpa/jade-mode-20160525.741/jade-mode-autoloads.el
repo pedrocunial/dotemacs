@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "jade-mode" "jade-mode.el" (22515 39524 562094
-;;;;;;  147000))
+;;;### (autoloads nil "jade-mode" "jade-mode.el" (22783 55379 190505
+;;;;;;  83000))
 ;;; Generated autoloads from jade-mode.el
 
 (autoload 'jade-mode "jade-mode" "\

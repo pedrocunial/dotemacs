@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "rvm" "rvm.el" (22604 14149 97261 414000))
+;;;### (autoloads nil "rvm" "rvm.el" (22783 55473 27696 35000))
 ;;; Generated autoloads from rvm.el
 
 (autoload 'rvm-use-default "rvm" "\

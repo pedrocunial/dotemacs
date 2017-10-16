@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "less-css-mode" "less-css-mode.el" (22515 39525
-;;;;;;  542101 158000))
+;;;### (autoloads nil "less-css-mode" "less-css-mode.el" (22783 55393
+;;;;;;  994685 381000))
 ;;; Generated autoloads from less-css-mode.el
 
 (defvar less-css-lessc-command "lessc" "\

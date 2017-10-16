@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "rbenv" "rbenv.el" (22604 14143 637368 763000))
+;;;### (autoloads nil "rbenv" "rbenv.el" (22783 55462 387555 741000))
 ;;; Generated autoloads from rbenv.el
 
 (autoload 'rbenv-use-global "rbenv" "\
